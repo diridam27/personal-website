@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>strplm</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>strlen(s)</code></td>
+<td>returnează lungimea șirului <code>s</code>, dat ca parametru.</td>
+</tr>
+<tr>
+<td><code>strcopy(s1, s2)</code></td>
+<td>Copiază șirul <code>s2</code> în <code>s1</code> și returnează adresa <code>s1</code></td>
+</tr>
+<tr>
+<td><code>strncpy(s1, s2, nr)</code></td>
+<td>Copiază primele <code>nr</code> caractere din șirul <code>s2</code> în șirul <code>s1</code> și returnează adresa <code>s1</code>.</td>
+</tr>
+<tr>
+<td><code>strcmp(s1, s2)</code></td>
+<td>Compară s1 cu s2 și returnează <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo fence="true">{</mo><mtable rowspacing="0.3600em" columnalign="left left" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mn>0</mn><mo separator="true">,</mo><mrow><mtext>&nbsp;dac</mtext><mover accent="true"><mtext>a</mtext><mo>˘</mo></mover><mtext>&nbsp;șirurile&nbsp;sunt&nbsp;identice;</mtext></mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>&lt;</mo><mn>0</mn><mo separator="true">,</mo><mrow><mtext>&nbsp;dac</mtext><mover accent="true"><mtext>a</mtext><mo>˘</mo></mover><mtext>&nbsp;</mtext></mrow><mi>s</mi><mn>1</mn><mo>&lt;</mo><mi>s</mi><mn>2</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>&gt;</mo><mn>0</mn><mrow><mtext>&nbsp;dac</mtext><mover accent="true"><mtext>a</mtext><mo>˘</mo></mover><mtext>&nbsp;</mtext></mrow><mi>s</mi><mn>1</mn><mo>&gt;</mo><mi>s</mi><mn>2.</mn></mrow></mstyle></mtd></mtr></mtable></mrow><annotation encoding="application/x-tex">\begin{cases}0, \text{ dacă șirurile sunt identice;}\\&lt;0, \text{ dacă } s1 &lt; s2\\&gt;0 \text{ dacă } s1&gt;s2.\end{cases}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 4.32em; vertical-align: -1.91em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.35002em;"><span class="" style="top: -2.19999em;"><span class="pstrut" style="height: 3.15em;"></span><span class="delimsizinginner delim-size4"><span class="">⎩</span></span></span><span class="" style="top: -2.19199em;"><span class="pstrut" style="height: 3.15em;"></span><span class="" style="height: 0.316em; width: 0.889em;"><svg width="0.889em" height="0.31599999999999984em" style="width:0.889em" viewBox="0 0 889 316" preserveAspectRatio="xMinYMin"><path d="M384 0 H504 V316 H384z M384 0 H504 V316 H384z"></path></svg></span></span><span class="" style="top: -3.15001em;"><span class="pstrut" style="height: 3.15em;"></span><span class="delimsizinginner delim-size4"><span class="">⎨</span></span></span><span class="" style="top: -4.29201em;"><span class="pstrut" style="height: 3.15em;"></span><span class="" style="height: 0.316em; width: 0.889em;"><svg width="0.889em" height="0.31599999999999984em" style="width:0.889em" viewBox="0 0 889 316" preserveAspectRatio="xMinYMin"><path d="M384 0 H504 V316 H384z M384 0 H504 V316 H384z"></path></svg></span></span><span class="" style="top: -4.60002em;"><span class="pstrut" style="height: 3.15em;"></span><span class="delimsizinginner delim-size4"><span class="">⎧</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.85002em;"><span class=""></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 2.41em;"><span class="" style="top: -4.41em;"><span class="pstrut" style="height: 3.008em;"></span><span class="mord"><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord text"><span class="mord">&nbsp;dac</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.69444em;"><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="mord">a</span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="accent-body" style="left: -0.25em;"><span class="mord">˘</span></span></span></span></span></span></span><span class="mord">&nbsp;</span><span class="mord latin_fallback">ș</span><span class="mord">irurile&nbsp;sunt&nbsp;identice;</span></span></span></span><span class="" style="top: -2.97em;"><span class="pstrut" style="height: 3.008em;"></span><span class="mord"><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord text"><span class="mord">&nbsp;dac</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.69444em;"><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="mord">a</span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="accent-body" style="left: -0.25em;"><span class="mord">˘</span></span></span></span></span></span></span><span class="mord">&nbsp;</span></span><span class="mord mathnormal">s</span><span class="mord">1</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord mathnormal">s</span><span class="mord">2</span></span></span><span class="" style="top: -1.53em;"><span class="pstrut" style="height: 3.008em;"></span><span class="mord"><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord">0</span><span class="mord text"><span class="mord">&nbsp;dac</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.69444em;"><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="mord">a</span></span><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="accent-body" style="left: -0.25em;"><span class="mord">˘</span></span></span></span></span></span></span><span class="mord">&nbsp;</span></span><span class="mord mathnormal">s</span><span class="mord">1</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mord mathnormal">s</span><span class="mord">2.</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 1.91em;"><span class=""></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></td>
+</tr>
+<tr>
+<td><code>stricmp(s1, s2)</code></td>
+<td>Ibidem, dar nu e case-sensitive</td>
+</tr>
+<tr>
+<td><code>strcat(s1, s2)</code></td>
+<td>Concatenează <code>s2</code> la <code>s1</code> și returnează adresa <code>s1</code> (se reunesc șirurile <code>s1</code> și <code>s2</code> prin adăugarea <code>s2</code> după ultimul caracter din <code>s1</code>, rezultatul reunirii se obține în <code>s1</code>)</td>
+</tr>
+<tr>
+<td><code>strchr(s, ch)</code></td>
+<td>Dacă șirul <code>s</code> conține caracterul <code>ch</code>, funcția returnează adresa din <code>s</code> a primei apariții a caracterului <code>ch</code>. Dacă șirul <code>s</code> nu conține caracterul <code>ch</code>, funcția returnează <code>NULL</code>.</td>
+</tr>
+<tr>
+<td><code>strstr(s1, s2)</code></td>
+<td>Dacă șirul <code>s1</code> conține un subșir identic cu șirul <code>s2</code>, funcția returnează adresa din <code>s1</code> a primei apariții a șirului <code>s2</code>. Dacă șirul <code>s1</code> nu conține un subșir identic cu șirul <code>s2</code>, funcția returnează <code>NULL</code>.</td>
+</tr>
+<tr>
+<td><code>a.strtok(s, sepatatori)</code>; <code>b.strtok(NULL, separatori)</code></td>
+<td>Șirul <code>s</code> conține mai multe entități (cuvinte, numere, propoziții etc.), separate prim unul sau mai multe caractere, memorate în șirul <code>separatori</code>. Primul apel al funcției înlocuiește cu <code>NULL</code> primul separator ce apare în șirul <code>s</code> și returnează adresa primei entități din șir. La fiecare dintre următoarele apeluri ale funcției <code>strtok</code> se aplică forma <code>b</code> și se obține adresa următoarei entități din șir. Funcția <code>strtok</code> returnează <code>NULL</code> dacă nu se mai poate obține nicio entitate din șirul <code>s</code>.</td>
+</tr>
+<tr>
+<td><code>strupr(s)</code></td>
+<td>Toate literele mici din șirul <code>s</code> se transformă în litere mari, celelalte caractere din <code>s</code> nu se modifică.</td>
+</tr>
+<tr>
+<td><code>strlwr(s)</code></td>
+<td>Toate literele mari din șirul <code>s</code> se transformă în litere mici, celelalte caractere din <code>s</code> nu se modifică.</td>
+</tr>
+</tbody>
+</table></div>
+</body>
+
+</html>
