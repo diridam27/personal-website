@@ -1,0 +1,73 @@
+* {
+      font-family: "nds", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'nds';
+  src: url('nds.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#bar {
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #000;
+    display: flex;
+    border: #ff0080 4px solid;
+    height: 14vh;
+}
+#butoane {
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+body {
+    background: url('../tile.png') center center repeat;
+}
+p {
+    font-size: 2vw;
+}
+h2 {
+    font-size: 10vh;
+}
+.buton {
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(#ff0080, #f153ff);
+    border: #f153ff 2px solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px;
+}
+.buton:hover {
+	background: linear-gradient(#d012dd, #dd0050);
+	color: #ddd;
+}
+#blinkies {
+    display: flex;
+}
+.blinkie {
+    height: 30px;
+}
+#logo {
+    height: 14vh;
+}
+#side {
+    width: 30vw;
+    border: 4px solid #d012dd;
+    align-items: center;
+    text-align: center;
+    height: 120vh;
+}
+.sidechick {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+.sidechick:hover {
+    text-decoration: underline;
+}
