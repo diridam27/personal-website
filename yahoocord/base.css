@@ -1,12 +1,12 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
-@import url(https://dirid.am/yahoocord/people.css);
-@import url(https://dirid.am/yahoocord/nature.css);
-@import url(https://dirid.am/yahoocord/food.css);
-@import url(https://dirid.am/yahoocord/activity.css);
-@import url(https://dirid.am/yahoocord/travel.css);
-@import url(https://dirid.am/yahoocord/objects.css);
-@import url(https://dirid.am/yahoocord/symbols.css);
-@import url(https://dirid.am/yahoocord/flags.css);
+@import url(https://diridam.netlify.app/yahoocord/people.css);
+@import url(https://diridam.netlify.app/yahoocord/nature.css);
+@import url(https://diridam.netlify.app/yahoocord/food.css);
+@import url(https://diridam.netlify.app/yahoocord/activity.css);
+@import url(https://diridam.netlify.app/yahoocord/travel.css);
+@import url(https://diridam.netlify.app/yahoocord/objects.css);
+@import url(https://diridam.netlify.app/yahoocord/symbols.css);
+@import url(https://diridam.netlify.app/yahoocord/flags.css);
 @namespace xlink 'http://www.w3.org/1999/xlink';
 .sprite__04eed {
 	-webkit-mask: none !important;
