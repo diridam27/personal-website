@@ -152,6 +152,7 @@ function parse()
         }
         romanian.splice(0, 0, `<button onclick="langg()" id="langButton">[EN]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[vezi sursă]</a>`);
         english.splice(0, 0, `<button onclick="langg()" id="langButton">[RO]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[see source]</a>`)
+        corpus.innerHTML = romanian.join("<br>");
     }
     else
     {
@@ -159,7 +160,6 @@ function parse()
         langButton.innerHTML = "";
         corpus.innerHTML = randuri.join("<br>");
     }
-    corpus.innerHTML = romanian.join("<br>");
 }
 
 function langg()
