@@ -164,6 +164,9 @@ function parse()
 
 function langg()
 {
-    corpus.innerHTML = switched ? romanian.join("<br>") : english.join("<br>");
-    switched = !switched;
+    if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
+    {
+        corpus.innerHTML = switched ? romanian.join("<br>") : english.join("<br>");
+        switched = !switched;
+    }
 }
