@@ -14,7 +14,7 @@ function getParameterByName(name, url) {
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 window.onload = function() {
-    postName = getParameterByName('p');
+    postName = getParameterByName('p', window.location.href);
 };
 
 //          **    *     ~~    `
