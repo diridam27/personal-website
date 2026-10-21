@@ -15,6 +15,12 @@ function getParameterByName(name, url) {
 }
 window.onload = function() {
     postName = getParameterByName('p', window.location.href);
+    fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
+    .then(r=>r.text())
+    .then(text => {
+        randuri = text.split("\n");
+        parse();
+    })
 };
 
 //          **    *     ~~    `
@@ -26,12 +32,7 @@ let romanian = ["gol"];
 let english = ["empty"];
 let switched = false; //booleană în care verificăm dacă am trecut deja la cealaltă limbă. După parse, o refolosim ca să schimbăm între limbi din buton.
 
-fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
-.then(r=>r.text())
-.then(text => {
-    randuri = text.split("\n");
-    parse();
-})
+
 
 fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/cuprins`)
 .then(r=>r.text())
@@ -39,6 +40,7 @@ fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/cupri
     cuprins = text.replaceAll(".txt", "").split("\n");
     cuprinde();
 })
+
 
 let tag = ["{{sds}}","{{yt}}","{{test}}","{{tumblr}}","{{reddit}}","{{discord}}","{{pm}}","{{favs}}"]
 let tags =
