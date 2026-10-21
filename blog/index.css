@@ -26,6 +26,13 @@
 body {
     background: url('../tile.png') center center repeat;
 }
+button {
+    color:#000;
+}
+*
+{
+    color:white;
+}
 p {
     font-size: 2vw;
 }
