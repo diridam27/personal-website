@@ -157,6 +157,7 @@ function parse()
     {
         console.log("nu am găsit limbi în pizdă");
         langButton.innerHTML = "";
+        corpus.innerHTML = randuri.join("<br>");
     }
     corpus.innerHTML = romanian.join("<br>");
 }

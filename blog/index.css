@@ -78,3 +78,17 @@ h2 {
 .sidechick:hover {
     text-decoration: underline;
 }
+ @media (min-width: 600px) {
+    #bar {
+        justify-content: space-between;
+        padding: 10px;
+        padding-bottom: 20px;
+        background-color: #000;
+        border: #ff0080 4px solid;
+        height: 14vh;
+    }
+    .buton {
+        font-size:3vh;
+    }
+    
+}
