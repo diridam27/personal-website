@@ -6,6 +6,7 @@
 
 Acestea sunt **diferite** chestii *care* pot să ~~apară~~ inline.
 Uite încă un `test` pentru a testa inline code blocks.
+Aici este un exemplu de [hyperlink](https://example.com/)
 
 * Acestea sunt bullet-uri
 * fain

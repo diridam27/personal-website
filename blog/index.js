@@ -139,6 +139,16 @@ function parse()
         {
             randuri[i] = "<a href=\"" + randuri[i].split("](")[1].split("]")[0].split(")")[0] + "\"><img style=\"width:20vw\" src=\"" + randuri[i].split("](")[1].split("]")[0].split(")")[0] + "\" alt=\"" + randuri[i].split("](")[0].split("![")[1] + "\">";
         }
+        while
+        (
+               randuri[i].split("[").length > 1 
+            && randuri[i].split("[")[1].split(")") > 1
+            && randuri[i].split("[")[1].split(")")[0].split("](") > 1
+            && randuri[i].split("[")[1].split(")")[0].includes("](")
+        )
+        {
+            randuri[i] = `randuri[i].split("[")[0] <a href=${randuri[i].split("[")[1].split(")")[0].split("](")[1]}>${randuri[i].split("[")[1].split(")")[0].split("](")[0]}</a> ${anduri[i].split("[")[1].split(")")[1]}`;
+        }
     }
     if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
     {
