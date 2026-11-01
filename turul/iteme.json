@@ -503,7 +503,7 @@
         },
         "text": {
             "title": "Nepeta Leijon",
-            "desc": "Nepeta din Homestuck,  desenată pe spatele unui test vechi la română din clasa a opta. Înainte să scriu toate astea, am stat în Photoshop și am pus câte un pixel verde în fiecare colț stânga-sus al fiecărui element de pe perete și unul albastru în fiecare colț dreapta-jos. Apoi am scris un cod în Python cu Pillow, care să scrie sub fiecare pixel verde coordonatele cu alb, iar deasupra fiecărui pixel albastru, coordonatele cu galben, ca să îmi fie ușor să le indexez când fac pagina de HTML. Aparent, coordonatele de la punctul verde al Nepetăi sunt „[413](https://mspaintadventures.fandom.com/wiki/413), 1549”. "
+            "desc": "Nepeta din Homestuck,  desenată pe spatele unui test vechi la română din clasa a opta. Înainte să scriu toate astea, am stat în Photoshop și am pus câte un pixel verde în fiecare colț stânga-sus al fiecărui element de pe perete și unul albastru în fiecare colț dreapta-jos. Apoi am scris un cod în Python cu Pillow, care să scrie sub fiecare pixel verde coordonatele cu alb, iar deasupra fiecărui pixel albastru, coordonatele cu galben, ca să îmi fie ușor să le indexez când fac pagina de HTML. Aparent, coordonatele de la punctul verde al Nepetăi sunt „<a href=\"https://mspaintadventures.fandom.com/wiki/413\">413</a>, 1549”. "
         }
     },
     "sri":
