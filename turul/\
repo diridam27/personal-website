@@ -1,0 +1,717 @@
+{
+    "gume1":
+    {
+        "coords": {
+            "x1": 745,
+            "y1": 697,
+            "x2": 821,
+            "y2": 752
+        },
+        "text": {
+            "title": "Colecția mea de ambalaje de gume",
+            "desc": "Mestec multă gumă zi de zi, am aici pe dulap lipite diferite ambalaje de la gumă. În afară de gumele cu zahăr (care nu prea au sens în opinia mea - nu o să cheltui o sută și ceva de calorii doar ca să mestec gumă cu zahăr ca să pot să lipesc pe dulap ambalajul dânsei), am cam toate gumele de pe piață."
+        }
+    },
+    "gume2":
+    {
+        "coords": {
+            "x1": 802,
+            "y1": 6,
+            "x2": 996,
+            "y2": 62
+        },
+        "text": {
+            "title": "Colecția mea de ambalaje de gume",
+            "desc": "Mestec multă gumă zi de zi, am aici pe dulap lipite diferite ambalaje de la gumă. În afară de gumele cu zahăr (care nu prea au sens în opinia mea - nu o să cheltui o sută și ceva de calorii doar ca să mestec gumă cu zahăr ca să pot să lipesc pe dulap ambalajul dânsei), am cam toate gumele de pe piață."
+        }
+    },
+    "gume3":
+    {
+        "coords": {
+            "x1": 682,
+            "y1": 67,
+            "x2": 990,
+            "y2": 685
+        },
+        "text": {
+            "title": "Colecția mea de ambalaje de gume",
+            "desc": "Mestec multă gumă zi de zi, am aici pe dulap lipite diferite ambalaje de la gumă. În afară de gumele cu zahăr (care nu prea au sens în opinia mea - nu o să cheltui o sută și ceva de calorii doar ca să mestec gumă cu zahăr ca să pot să lipesc pe dulap ambalajul dânsei), am cam toate gumele de pe piață."
+        }
+    },
+    "gume4":
+    {
+        "coords": {
+            "x1": 837,
+            "y1": 697,
+            "x2": 980,
+            "y2": 733
+        },
+        "text": {
+            "title": "Colecția mea de ambalaje de gume",
+            "desc": "Mestec multă gumă zi de zi, am aici pe dulap lipite diferite ambalaje de la gumă. În afară de gumele cu zahăr (care nu prea au sens în opinia mea - nu o să cheltui o sută și ceva de calorii doar ca să mestec gumă cu zahăr ca să pot să lipesc pe dulap ambalajul dânsei), am cam toate gumele de pe piață."
+        }
+    },
+    "cort":
+    {
+        "coords": {
+            "x1": 569,
+            "y1": 262,
+            "x2": 655,
+            "y2": 481
+        },
+        "text": {
+            "title": "Cheia de la cort",
+            "desc": "Când am fost la Beach Please anul trecut am stat cu cortul. Cortul avea un lacăt, ca nu cumva lumea de la camping să intre înăuntru și să-mi fure chestiile. La una dintre activările unui brand, trebuia să joci un joc dintr-ăla de memorie, gen dai câte două cărți pe față și trebuie să reții unde sunt ca să faci perechi, iar dacă băteai jocul sub un anumit timp, dădeai la roata norocului ca să câștigi un premiu. Am stat la coadă la jocul ăla de mi s-a urât, dar cât timp stăteam la coadă și vedeam cum joacă ceilalți, am reținut cumva toate perechile și am reușit să-l bat din prima. După o jumătate de oră dedicată acestui joc, am dat la roata norocului și am câștigat un breloc, pe care l-am legat la cheia de la cort, ca să-mi fie mai greu s-o pierd."
+        }
+    },
+    "monster":
+    {
+        "coords": {
+            "x1": 569,
+            "y1": 484,
+            "x2": 659,
+            "y2": 614
+        },
+        "text": {
+            "title": "Monster Energy",
+            "desc": "Am decupat „M”-ul de pe o doză de Monster roz zero zahăr (cea mai bună aromă de energizant existentă, am băut una acum câteva ore) și am lipit-o de dulap."
+        }
+    },
+    "vitalis":
+    {
+        "coords": {
+            "x1": 476,
+            "y1": 470,
+            "x2": 551,
+            "y2": 564
+        },
+        "text": {
+            "title": "Cereale Vitalis",
+            "desc": "Atunci când merg la ziua cuiva de naștere, trebuie să recunosc că ofer aproape exclusiv bani. Dar, deși am un teanc de plicuri albe, mi se pare de prost gust să ofer pur și simplu banii în plic, așa că de obicei fac plicuri din diverse chestii (ziare, reviste, ambalaje, instrucțiuni de la Ikea, teste vechi din clasa a opta etc. - am mai multe sertare pline cu hârtii vechi etichetate „Maculatură” în care umblu ca să găsesc din ce să fac plicuri). Apoi decupez chestii din reviste, lipesc abțibilduri, vopsesc cu spray, desenez cu markere cu vopsea peste etc. ca să iasă un soi de colaj. E un ritual pe care îl fac înainte de fiecare zi de naștere, iar realizarea fiecărei „lucrări” durează vreo oră. Ei bine, la un moment dat nu mai aveam idei - încerc să nu reciclez ideile de la zilele precedente de naștere, ca să nu vadă cei care au fost invitați și cărora le-am mai făcut plicuri că nu au fost tratați cu o idee originală. Și cum mergeam eu prin casă și umblam în sertare ca să văd din ce să fac un plic, am dat de o cutie de cereale, pe care am folosit-o ca să decupez un plic din ea. Pe cutie era această etichetă, ceva promoție „începe ziua cu Vitalis, continuă cu fetele în city break!” (știți, pentru că sunt cereale de fete), așa că am lipit-o pe perete ca să îmi amintesc ziua de naștere. A fost o zi de naștere destul de nașpa, n-o să mint. Call that „zi de nașpere”."
+        }
+    },
+    "bon":
+    {
+        "coords": {
+            "x1": 271,
+            "y1": 466,
+            "x2": 454,
+            "y2": 562
+        },
+        "text": {
+            "title": "Bon",
+            "desc": "O imagine scoasă la imprimanta termală de la un POS pe un bon. Imaginea îl înfățișează pe un prieten care repară niște ochelari la stația de lipit. Nu a ținut reparația, aparent nu poți lipi ochelari cu cositor și să te aștepți să țină. Am cenzurat capul distinsului chiar dacă se vede alb negru din spate."
+        }
+    },
+    "copiuta":
+    {
+        "coords": {
+            "x1": 158,
+            "y1": 537,
+            "x2": 272,
+            "y2": 647
+        },
+        "text": {
+            "title": "Copiuță",
+            "desc": "O copiuță pe care am făcut-o pentru un test la biologie. Ceva despre glande endocrine. Doamna de biologie făcuse o criză de nervi recent și ne-a pedepsit cu un test care nu avea legătură cu materia din caiet și dacă bine țin minte cred că am luat vreun șapte."
+        }
+    },
+    "iordania":
+    {
+        "coords": {
+            "x1": 278,
+            "y1": 573,
+            "x2": 552,
+            "y2": 663
+        },
+        "text": {
+            "title": "Iordania",
+            "desc": "Un „mărțișor” în formă de bilet de avion pe care l-am primit ca suvenir la o activitate de schimb de experiență cu persoane din diferite țări."
+        }
+    },
+    "indulcitor":
+    {
+        "coords": {
+            "x1": 561,
+            "y1": 617,
+            "x2": 674,
+            "y2": 699
+        },
+        "text": {
+            "title": "Îndulcitor",
+            "desc": "Un plic de îndulcitor zero zahăr. Nu am nicio idee ce fel de îndulcitor este, am impresia că era sucraloză. Îmi plac foarte mult îndulcitorii fără zahăr, oricine zice ceva rău de prietenii mei Aspartam, Acesulfam de Potasiu, Sucraloză, Zaharină, Stevia, Ciclamat, Manitol, Maltiol, Sorbitol și Xilitol (nu știu dacă am uitat de vreounul) va avea de suferit."
+        }
+    },
+    "tedi":
+    {
+        "coords": {
+            "x1": 183,
+            "y1": 652,
+            "x2": 276,
+            "y2": 844
+        },
+        "text": {
+            "title": "Tedi Motorola",
+            "desc": "Îmi plăcea foarte mult Tedi la un moment dat, <a href=\"https://i.imgur.com/HcGdLRx.png\">poza mea de profil a fost foarte mult cu Tedi</a>. Așa că am lipit o latură a unei motorole de Tedi pe dulap. Mi se pare și foarte hazliu termenul de „motorolă”. Să spui la o cutie de suc sau votcă „motorola” pentru că odată de bagi paiul arată ca un telefon pătrățos cu antenă."
+        }
+    },
+    "pepsi":
+    {
+        "coords": {
+            "x1": 286,
+            "y1": 667,
+            "x2": 392,
+            "y2": 785
+        },
+        "text": {
+            "title": "Pepsi",
+            "desc": "Logo-ul Pepsi, tăiat dintr-o doză și lipit pe dulap. Mă plictiseam, nu am nicio atașare emoțională față de această băutură."
+        }
+    },
+    "drpepper":
+    {
+        "coords": {
+            "x1": 405,
+            "y1": 669,
+            "x2": 557,
+            "y2": 774
+        },
+        "text": {
+            "title": "Dr. Pepper",
+            "desc": "Vezi „Pepsi”."
+        }
+    },
+    "cassaloco":
+    {
+        "coords": {
+            "x1": 564,
+            "y1": 703,
+            "x2": 723,
+            "y2": 789
+        },
+        "text": {
+            "title": "Ca$$a  Loco",
+            "desc": "O poză decupată dintr-o revistă cu Ca$$a Loco cântând îmbrăcați în fuste."
+        }
+    },
+    "clubvilabran":
+    {
+        "coords": {
+            "x1": 754,
+            "y1": 757,
+            "x2": 891,
+            "y2": 893
+        },
+        "text": {
+            "title": "Club Vila Bran",
+            "desc": "Acum vreo 6 ani am mers la munte la „Club Vila Bran”, un complex cu niște căsuțe în care te poți caza, ca un fel de parc privat în care restaurantele și cazările sunt centralizare (și <a href=\"https://vilabran.ro/s3/vilabran/ExperiencesPage/vilabran_c59e6d88-51bb-4c44-8a23-da706d87e671/xxl_vilabran_c59e6d88-51bb-4c44-8a23-da706d87e671.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=L553SLGVIPWTBUAMF8D8/20261031/us-east-1/s3/aws4_request&X-Amz-Date=20261031T093327Z&X-Amz-Expires=86400&X-Amz-Signature=331fef49b4430566b1c0017766f276158e5838d0056adde66db4c0a975c644c9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject\"> cel mai apropiat lucru românesc de mascot horror</a>), unde a fost organizată o vânătoare de comori, la care am participat eu și alți câțiva zeci de oameni. Era ceva de genul „du-te aici, apoi caută indiciul care să te ducă în locul în care e nevoie să fi apoi.” Cumva, am ajuns la locația finală, unde trebuia să cauți ceva (nu se specifica ce), iar eu am fost prima care a reușit să găsească comoara - un soi de medalie cu un cerb și cu „Club Vila Bran” scris sub. "
+        }
+    },
+    "estrogen":
+    {
+        "coords": {
+            "x1": 674,
+            "y1": 805,
+            "x2": 745,
+            "y2": 898
+        },
+        "text": {
+            "title": "Estrogen",
+            "desc": "O jumătate de foaie de pastile de valerat de estradiol."
+        }
+    },
+    "spiro":
+    {
+        "coords": {
+            "x1": 599,
+            "y1": 797,
+            "x2": 664,
+            "y2": 907
+        },
+        "text": {
+            "title": "Spiro",
+            "desc": "O foaie de pastile de spironolactonă."
+        }
+    },
+    "fiec":
+    {
+        "coords": {
+            "x1": 520,
+            "y1": 815,
+            "x2": 592,
+            "y2": 901
+        },
+        "text": {
+            "title": "Facultatea de Inginerie Electrică din Craiova",
+            "desc": "O fisă mică, scoasă la imprimanta 3d, pe care am primit-o când am mers la ziua porților deschise la Universitatea din Craiova. Am apărut și în ziar, se pare că fotograful de la Gazeta de Sub era fix lângă mine când a făcut poza."
+        }
+    },
+    "morse":
+    {
+        "coords": {
+            "x1": 367,
+            "y1": 790,
+            "x2": 512,
+            "y2": 870
+        },
+        "text": {
+            "title": "- . / .. ..- ...- . ... -.-.",
+            "desc": "Un cartonaș cu „Te iubesc” pe care l-am primit cu o brățărică de argint care spune „te iubesc” în codul morse, din mărgelușe. Am primit brățara de la ai mei, care știu că îmi place codul morse și radioamatorismul."
+        }
+    },
+    "cfr":
+    {
+        "coords": {
+            "x1": 376,
+            "y1": 879,
+            "x2": 504,
+            "y2": 992
+        },
+        "text": {
+            "title": "CFR",
+            "desc": "Un bilet de tren de CFR, de la Craiova către Cluj. Am mers cu o prietenă, ne-a luat poliția (vezi mai jos „Proces verbal”) și m-am îmbătat mangă în Țevi. A fost una dintre cele mai faine zile ale vieții mele overall."
+        }
+    },
+    "broasca":
+    {
+        "coords": {
+            "x1": 175,
+            "y1": 852,
+            "x2": 354,
+            "y2": 996
+        },
+        "text": {
+            "title": "Broasca de metal",
+            "desc": "Un desenaș pe care l-am făcut cu o broască mică de metal pe care o am prin casă. Am folosit pentru prima oară în mulți ani culori, a fost un wake-up call pentru mine să nu mai desenez exclusiv cu negru."
+        }
+    },
+    "doidepica":
+    {
+        "coords": {
+            "x1": 685,
+            "y1": 902,
+            "x2": 777,
+            "y2": 1037
+        },
+        "text": {
+            "title": "Doi de pică",
+            "desc": "O carte de joc semnată de Silviu Gherman. Am fost la un spectacol de-al lui, unde au fost întâmpinate niște probleme tehnice și nu mergea lumina. Gherman a ieșit din cameră, iar un membru al audienței a venit în față și a început să facă trucuri de magie. Unul dintre trucurile pe care le-a făcut a implicat să ne arate o carte pe care trebuia să o reținem. Acea carte a fost un doi de pică. Aveam și eu un pachet de cărți la mine (mereu am unul) și după spectacol i-am cerut lui Gherman să-mi semneze cartea."
+        }
+    },
+    "decedoamnaprimar":
+    {
+        "coords": {
+            "x1": 783,
+            "y1": 908,
+            "x2": 966,
+            "y2": 983
+        },
+        "text": {
+            "title": "De ce, doamna primar?",
+            "desc": "O poză cu Lia Olguța Vasilescu decupată din ziar cu textul „De ce, doamna primar, nu avem apă caldă la robinet?”. I-am trimis poza și doamnei primar mai sus menționate, însă până la momentul redactării nu am primit un răspuns."
+        }
+    },
+    "desenepebon":
+    {
+        "coords": {
+            "x1": 520,
+            "y1": 919,
+            "x2": 655,
+            "y2": 1151
+        },
+        "text": {
+            "title": "Desene pe bon",
+            "desc": "Mă plictiseam și nu aveam nimic cu care să-mi distrag atenția. Nu mai știu dacă eram în tren sau în altă situație, dar am scos un bon și m-am apucat să desenez: o ceapă verde (e neagră dar e verde), un pahar de vin roșu (e negru, dar e roșu), unt, o mâță, o lopată, o muscă, o motorolă de tedi (vezi „Tedi Motorola”), un ou spart care urmează să pice într-o tigaie, o tigaie în care urmează să pice un ou spart și o albinuță."
+        }
+    },
+    "ficd":
+    {
+        "coords": {
+            "x1": 246,
+            "y1": 1006,
+            "x2": 491,
+            "y2": 1167
+        },
+        "text": {
+            "title": "Fanii îmi controlează desenul",
+            "desc": "Un print cu desenul realizat din propuneri de Nicu Mihai în <a href=\"https://www.youtube.com/watch?v=iCNp138RJy0\">primul astfel de episod din „Desenînd cu Â din I”</a>. Am cumpărat desenul de la Comic Con. Am apărut și eu într-unul dintre episoadele din propuneri, însă nu voi spune în care deoarece îmi apare deadname-ul."
+        }
+    },
+    "minion":
+    {
+        "coords": {
+            "x1": 713,
+            "y1": 1058,
+            "x2": 799,
+            "y2": 1143
+        },
+        "text": {
+            "title": "Minion",
+            "desc": "Un jeton de metal de la cornul Chipicao cu un minion în trening. Odată când eram la Auchan și încercam să pipăi cornurile pentru a găsi un astfel de jeton, a venit un angajat la mine și mi-a spus secretul: Fiecare bax de cornuri Chipicao are 100 de cornuri, iar doar unul are jetonul de metal. Pentru a vedea dacă jetonul e de metal, trebuie să te uiți sub numărul de lot, unde vei vedea un cod care se termină în „RO” și un număr. Dacă se termină în „RO17”, jetonul e de metal. Azi nu mai există jetoane la Chipicao, deci trucul e inutil."
+        }
+    },
+    "procesverbal":
+    {
+        "coords": {
+            "x1": 210,
+            "y1": 1194,
+            "x2": 454,
+            "y2": 1510
+        },
+        "text": {
+            "title": "Proces verbal",
+            "desc": "Când am fost la Cluj (vezi „CFR”),aveam telefonul descărcat. Am găsit o stație de încărcare în care ne-am băgat telefoanele. Am observat un perete plin ochi de desene făcute cu creionul de diferiți oameni, și, de plictiseală, am scos și eu un creion din penar și am început să desenez pe perete pe Mo și F.O.C.A. din RObotzi. Dar pe când să fac butonul din buric, au tras două mașini de poliție lângă noi și au început să ne beștelească pentru această infracțiune. M-au pus să șterg desenul și am făcut întocmai, nici nu se mai vedea. Au avut nevoie de întăriri se pare, au mai chemat vreo patru polițiști în alte două mașini. Au completat un proces verbal și ne-au sunat părinții. După vreo 20 de minute, au concluzionat că ne dau doar un avertisment. Pe procesul verbal nu se mai vede nimic, pentru că dulapul meu stă lângă soare, însă înainte scria „A desenat cu creionul pe pereții clădirii aparținând facultății de Drept al UBB, fără drept.” Drept? Fără drept!"
+        }
+    },
+    "tarot":
+    {
+        "coords": {
+            "x1": 843,
+            "y1": 1111,
+            "x2": 927,
+            "y2": 1275
+        },
+        "text": {
+            "title": "Tarot",
+            "desc": "O carte de tarot pe care am primit-o de la cineva la Comic Con. În ilustrație e Justice din Helltaker (am aflat asta fix acum când am căutat pe net personajul)."
+        }
+    },
+    "joker":
+    {
+        "coords": {
+            "x1": 741,
+            "y1": 1176,
+            "x2": 835,
+            "y2": 1314
+        },
+        "text": {
+            "title": "Joker",
+            "desc": "Mi-a plăcut cum arată această carte de joker așa că am lipit-o pe perete. Oricum nu joc niciun joc cu jokerii și nu voi pierde nicio carte vreodată. Nu e din același pachet cu doiul de pică de mai sus, îmi dau seama deoarece albul de pe fundal e un pic mai deschis."
+        }
+    },
+    "ficd4":
+    {
+        "coords": {
+            "x1": 477,
+            "y1": 1178,
+            "x2": 718,
+            "y2": 1339
+        },
+        "text": {
+            "title": "Fanii îmi controlează desenul 4",
+            "desc": "Un print cu desenul din propuneri realizat de Nicu Mihai în al <a href=\"https://www.youtube.com/watch?v=7mzpeMM3a3Q\">patrulea astfel de episod din „Desenînd cu Â din I”</a>. Vezi „Fanii îmi controlează desenul”."
+        }
+    },
+    "astratranscarpatic":
+    {
+        "coords": {
+            "x1": 475,
+            "y1": 1370,
+            "x2": 612,
+            "y2": 1467
+        },
+        "text": {
+            "title": "Astra Trans Carpatic",
+            "desc": "Un bilet de tren Astra Trans Carpatic, cu steagul transgender desenat peste. A stat prea mult în soare ca să-mi dau seama ce bilet e, dar bag mâna-n foc că e de la București Nord la Craiova de la 19:28."
+        }
+    },
+    "7up":
+    {
+        "coords": {
+            "x1": 864,
+            "y1": 1282,
+            "x2": 921,
+            "y2": 1331
+        },
+        "text": {
+            "title": "7up",
+            "desc": "Un capac de 7up, unul dintre sucurile mele preferate. Nicio poveste atașată acestuia."
+        }
+    },
+    "ascovit":
+    {
+        "coords": {
+            "x1": 841,
+            "y1": 1337,
+            "x2": 925,
+            "y2": 1440
+        },
+        "text": {
+            "title": "Ascovit",
+            "desc": "Spiridușul de pe pastilele de vitamina C „Ascovit” - îl găsesc foarte simpatic. Aș mânca un borcan de Ascovit ca pe Skittles."
+        }
+    },
+    "saniuta":
+    {
+        "coords": {
+            "x1": 586,
+            "y1": 1472,
+            "x2": 889,
+            "y2": 1632
+        },
+        "text": {
+            "title": "Săniuța",
+            "desc": "Un desen făcut în tren cu o sticlă de Săniuța și un pahar lângă. Desenul e lipit cu eticheta sticlei de Săniuța. Înainte să mă las de băut acum un an și ceva, beam pe tren (dar mai era lume cu mine deci era o chestie socială și nu aveam o problemă)."
+        }
+    },
+    "caro":
+    {
+        "coords": {
+            "x1": 532,
+            "y1": 1484,
+            "x2": 580,
+            "y2": 1532
+        },
+        "text": {
+            "title": "Capac caro",
+            "desc": "Un capac interesant, cu model de carouri, pe care l-am găsit pe jos."
+        }
+    },
+    "cassutaloco":
+    {
+        "coords": {
+            "x1": 662,
+            "y1": 1129,
+            "x2": 711,
+            "y2": 1168
+        },
+        "text": {
+            "title": "Că$$uța Loco",
+            "desc": "O poză foarte mică cu membrii Ca$$a Loco. Cât timp scriu despre Ca$$a Loco trebuie să tot pun backslash („\\”) înainte de fiecare „$” pentru că în Markdown textul pus între semne de dolar e interpretat ca ecuație matematică LaTeX."
+        }
+    },
+    "eticheta":
+    {
+        "coords": {
+            "x1": 294,
+            "y1": 1548,
+            "x2": 410,
+            "y2": 1612
+        },
+        "text": {
+            "title": "Eticheta Supermarket",
+            "desc": "Etichetele din supermarket sunt de fapt niște ecrane mici e-ink, care pot fi, teoretic hack-uite. Am luat (foarte legal) câteva dintr-un anume magazin (care nu mă va presa în vreun fel) și am încercat să le fac să afișeze ce vreau eu. Unele au mers, asta se pare că nu a mers. Am lipit-o pe dulap. E un pix Schneider la 9 lei și 19 bani. Azi costă cu 40 de bani mai mult."
+        }
+    },
+    "nepeta":
+    {
+        "coords": {
+            "x1": 413,
+            "y1": 1549,
+            "x2": 580,
+            "y2": 1801
+        },
+        "text": {
+            "title": "Nepeta Leijon",
+            "desc": "Nepeta din Homestuck,  desenată pe spatele unui test vechi la română din clasa a opta. Înainte să scriu toate astea, am stat în Photoshop și am pus câte un pixel verde în fiecare colț stânga-sus al fiecărui element de pe perete și unul albastru în fiecare colț dreapta-jos. Apoi am scris un cod în Python cu Pillow, care să scrie sub fiecare pixel verde coordonatele cu alb, iar deasupra fiecărui pixel albastru, coordonatele cu galben, ca să îmi fie ușor să le indexez când fac pagina de HTML. Aparent, coordonatele de la punctul verde al Nepetăi sunt „<a href=\"https://mspaintadventures.fandom.com/wiki/413\">413</a>, 1549”. "
+        }
+    },
+    "sri":
+    {
+        "coords": {
+            "x1": 209,
+            "y1": 1531,
+            "x2": 288,
+            "y2": 1675
+        },
+        "text": {
+            "title": "SRI",
+            "desc": "Au venit odată unii de la SRI la mine la liceu să încerce să ne convingă să ne angajăm acolo după studii. Am luat o carte de vizită și am lipit-o pe perete."
+        }
+    },
+    "tocat":
+    {
+        "coords": {
+            "x1": 295,
+            "y1": 1618,
+            "x2": 396,
+            "y2": 1721
+        },
+        "text": {
+            "title": "Sită de mașină de tocat",
+            "desc": "Când am mers la Drobeta Turnu Severin am vrut să iau un suvenir. Am mers în piață și mi-am cumpărat această sită de mașină de tocat carne."
+        }
+    },
+    "metrou":
+    {
+        "coords": {
+            "x1": 218,
+            "y1": 1722,
+            "x2": 301,
+            "y2": 1843
+        },
+        "text": {
+            "title": "Cartelă de metrou",
+            "desc": "O cartelă de metrou de când am mers (cred) prima oară singură la București. Avea două călătorii, am mers cu ea la Politehnică, ca să merg la AFI, apoi la Gara de Nord, ca să merg îndărăt acasă."
+        }
+    },
+    "bavaria":
+    {
+        "coords": {
+            "x1": 333,
+            "y1": 1742,
+            "x2": 382,
+            "y2": 1798
+        },
+        "text": {
+            "title": "Capac Bavaria Smalt",
+            "desc": "Un capac de bere de ghimbir luată din Carrefour-ul din Drobeta Turnu Severin. Foarte bună a fost, nu am mai găsit niciunde altundeva. Am băut-o în timp ce făceam integrama din ziarul pe care mi l-a vândut cineva în trenul spre Drobeta."
+        }
+    },
+    "10cm":
+    {
+        "coords": {
+            "x1":649,
+            "y1":1638,
+            "x2":730,
+            "y2":1680
+        },
+        "text": {
+            "title": "10cm",
+            "desc": "Un post-it mic pe care scrie „10cm”. A trebuit să fac un experiment la fizică pe care să-l filmez: trebuia să înregistrez pendule de diferite lungimi și să notez cât durează să se bălăngăne de colo colo. Ca să îmi fie mai ușor să bag filmările în programul de editare și să nu uit care pendul e care, am făcut etichete. Ca un fel de <a href=\"https://ro.wikipedia.org/wiki/Clachet%C4%83\">clachetă de film</a>."
+        }
+    },
+    "ratc":
+    {
+        "coords": {
+            "x1":798,
+            "y1":1638,
+            "x2":930,
+            "y2":1697
+        },
+        "text": {
+            "title": "Bilet RATC",
+            "desc": "Un bilet de autobuz din Craiova. Acesta din imagine este verde - o culoare neobișnuită pentru un bilet, care, de obicei, este roz bonbon. Asta este deoarece era un bilet pentru „Party Bus”-ul Olguței. Când vine târgul de Crăciun la craioveni, Olguța aduce și niște autobuze mai vechi pe care le umple cu boxe, lumini colorate, stroboscoape, mașini de fum și boxe cu manele și EDM. Destul de distractiv, dar și o linie foarte utilă, duce din centru în cartierul Craiovița Nouă. Doar imaginează-ți să termini școala după-amiaza, rupt în gură de obosit, și să trebuiască să iei autobuzul din Fortnite până acasă."
+        }
+    },
+    "turbo":
+    {
+        "coords": {
+            "x1":662,
+            "y1":1687,
+            "x2":769,
+            "y2":1803
+        },
+        "text": {
+            "title":"Guma Turbo",
+            "desc":"O mașină de la Guma Turbo. Aparent un Spyher B6 Spyher Concept. Nu am mai auzit niciodată de această marcă de mașini, dar ce-i drept nu îmi plac mașinile de nicio culoare. Nici guma turbo nu îmi place - are zahăr (vezi „Colecția mea de gume”) și are un gust necăjit."
+        }
+    },
+    "postit":
+    {
+        "coords": {
+            "x1":797,
+            "y1":1703,
+            "x2":922,
+            "y2":1827
+        },
+        "text": {
+            "title":"Postit Diridam",
+            "desc":"Un post-it cu tematică MS Paint pe care e desenată <a href=\"https://commons.wikimedia.org/wiki/File:Diridam_Cat.png\">pisica lui Diridam</a>."
+        }
+    },
+    "nicusordan":
+    {
+        "coords": {
+            "x1":838,    
+            "y1":1846,
+            "x2":927,
+            "y2":2047
+        },
+        "text": {
+            "title":"Nicușor Dan",
+            "desc":"Președintele României, așa cum apărea într-un fluturaș de campanie. Încă nu câștigase alegerile - se observă după faptul că nu pare că a consumat doi ani heroină."
+        }
+    },
+    "ursus":
+    {
+        "coords": {
+            "x1":906,
+            "y1":754,
+            "x2":957,
+            "y2":804
+        },
+        "text": {
+            "title":"Capac Ursus",
+            "desc":"Un capac de la berea ursus. Nu mai știu de la ce ocazie. Foarte probabil pe ideea „beau la ocazie, dar în fiecare zi este ocazie”, altfel de ce l-aș fi avut în casă."
+        }
+    },
+    "colanti":
+    {
+        "coords": {
+            "x1":895,
+            "y1":821,
+            "x2":969,
+            "y2":899
+        },
+        "text": {
+            "title":"Eticheta de la colanți",
+            "desc":"Acești superbi colanți mă ajută și azi să nu dârdâi iarna de frig când merg la școală."
+        }
+    },
+    "corona":
+    {
+        "coords": {
+            "x1":651,
+            "y1":1395,
+            "x2":695,
+            "y2":1445
+        },
+        "text": {
+            "title":"Capac Corona",
+            "desc":"Față de capacul de Ursus de mai sus, acestui capac îi știu originea - eram la o zi de naștere unde am băut până mi s-a tăiat filmul. A fost ultima oară când am băut alcool."
+        }
+    },
+    "oddish":
+    {
+        "coords": {
+            "x1":734,
+            "y1":1319,
+            "x2":835,
+            "y2":1466
+        },
+        "text": {
+            "title":"Oddish",
+            "desc":"O carte Pokémon cu un Oddish. Unul dintre pokémonii mei preferați." 
+        }
+    },
+    "cheita":
+    {
+        "coords": {
+            "x1":697,
+            "y1":1358,
+            "x2":723,
+            "y2":1401
+        },
+        "text": {
+            "title":"Cheiță Monster",
+            "desc": "O cheiță de la doza de Monster. Mi-a plăcut cum arată - e neagră și are un „M” de la „Monster” pe ea."
+        }
+    },
+    "durex":
+    {
+        "coords": {
+            "x1":803,
+            "y1":992,
+            "x2":905,
+            "y2":1101
+        },
+        "text": {
+            "title":"Cutie de prezervative Durex",
+            "desc":"Fața unei cutii de prezervative Durex. Le-am cumpărat de la farmacie, aveam, fără să vreau, doar 5 lei în mână, restul banilor erau în portofel. De parcă nu e suficient de nașpa să te duci la farmacie după prezervative, unde trebuie să le ceri după tejghea, farmacista mi-a mai zis și „nu cred că ai suficienți bani”."
+        }
+    },
+    "amogus":
+    {
+        "coords": {
+            "x1":893,
+            "y1":1490,
+            "x2":956,
+            "y2":1552
+        },
+        "text": {
+            "title":"Among Us",
+            "desc":"Un magnet de frigider primit de la Facultatea de Inginerie Electrică din Craiova. Pe el scrie „There is an «engineer» among us”. Pentru că e magnet de frigider nu puteam să-l lipesc pe dulapul meu care nu e făcut din tablă. Așa că am lipit un bănuț de 10 bani pe dulap și magnetul peste dânsul."
+        }
+    }
+}
