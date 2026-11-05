@@ -141,13 +141,14 @@ function parse()
         }
         while
         (
-               randuri[i].split("[").length > 1 
-            && randuri[i].split("[")[1].split(")") > 1
-            && randuri[i].split("[")[1].split(")")[0].split("](") > 1
-            && randuri[i].split("[")[1].split(")")[0].includes("](")
+                                                                        // unu [doi](trei) patru
+               randuri[i].split("[").length > 1                         // unu, doi](trei) patru (2 > 1)
+            && randuri[i].split("[")[1].split(")") > 1                  // doi](trei, patru (2 > 1)
+            && randuri[i].split("[")[1].split(")")[0].split("](") > 1   // doi, trei (2 > 1)
+            && randuri[i].split("[")[1].split(")")[0].includes("](")    // doi](trei (are "](")
         )
         {
-            randuri[i] = `randuri[i].split("[")[0] <a href=${randuri[i].split("[")[1].split(")")[0].split("](")[1]}>${randuri[i].split("[")[1].split(")")[0].split("](")[0]}</a> ${anduri[i].split("[")[1].split(")")[1]}`;
+            randuri[i] = `${randuri[i].split("[")[0]} <a href=${randuri[i].split("[")[1].split(")")[0].split("](")[1]}>${randuri[i].split("[")[1].split(")")[0].split("](")[0]}</a> ${anduri[i].split("[")[1].split(")")[1]}`;
         }
     }
     if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
