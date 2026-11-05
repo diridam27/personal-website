@@ -74,18 +74,18 @@
     "shaggy": {
         "coords": {
             "x1":1134,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "y1":962,
+            "x2":1320,
+            "y2":1127
         },
         "title":"Angel_spotdown.org_trimmed.mp3"
     },
     "pheonix": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":1385,
+            "y1":1466,
+            "x2":1501,
+            "y2":1620
         },
         "title":"Mica țiganiadă_spotdown.org_trimmed.mp3"
     },
@@ -93,71 +93,71 @@
         "coords": {
             "x1":0,
             "y1":0,
-            "x2":0,
-            "y2":0
+            "x2":193,
+            "y2":155
         },
         "title":"Around the World_spotdown.org_trimmed.mp3"
     },
     "minecraft": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":33,
+            "y1":1288,
+            "x2":454,
+            "y2":1709
         },
         "title":"Mice on Venus_spotdown.org_trimmed.mp3"
     },
     "verve": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":1321,
+            "y1":467,
+            "x2":1496,
+            "y2":621
         },
         "title":"Bitter Sweet Symphony (Remastered 2016) - The Verve_trimmed.mp3"
     },
     "screen": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":966,
+            "y1":156,
+            "x2":1133,
+            "y2":315
         },
         "title":"Miserlou_spotdown.org_trimmed.mp"
     },
     "blablabla": {
         "coords": {
-            "x1":0,
+            "x1":580,
             "y1":0,
-            "x2":0,
-            "y2":0
+            "x2":767,
+            "y2":155
         },
         "title":"Bla Bla Bla_spotdown.org_trimmed.mp3"
     },
     "ram": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":457,
+            "y1":1286,
+            "x2":878,
+            "y2":1707
         },
         "title":"Motherboard_spotdown.org_trimmed.mp"
     },
     "korn": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":1134,
+            "y1":783,
+            "x2":1320,
+            "y2":961
         },
         "title":"Blind_spotdown.org_trimmed.mp3"
     },
     "gossip": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":0,
-            "y2":0
+            "x1":768,
+            "y1":316,
+            "x2":965,
+            "y2":466
         },
         "title":"Move in the Right Direction - Gossip_trimmed.mp3"
     },
