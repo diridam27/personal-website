@@ -809,8 +809,30 @@
             "x2": 965,
             "y2": 155
         },
-        "filename": "Wouldn't Change A Thing_spotdown.org_trimmed.mp3",
+        "filename": "Just Dance_spotdown.org_trimmed.mp3",
         "title": "Just Dance",
         "artist": "Lady Gaga"
+    },
+    "matze": {
+        "coords": {
+            "x1": 397,
+            "y1": 622,
+            "x2": 579,
+            "y2": 782
+        },
+        "filename": "matze.mp3",
+        "title": "ultima, cu luceafărul huilei",
+        "artist": "matze"
+    },
+    "2f2py": {
+        "coords": {
+            "x1": 397,
+            "y1": 622,
+            "x2": 579,
+            "y2": 782
+        },
+        "filename": "2f2py.mp3",
+        "title": "No Folk Music, no Kashai",
+        "artist": "DJ Phantom"
     }
 }
