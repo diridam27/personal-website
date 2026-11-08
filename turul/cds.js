@@ -40,6 +40,7 @@ window.addEventListener("load", async () => {
     });
 
     webamp.renderWhenReady(document.getElementById("app"));
+    webamp.setRepeat(true);
 
     window.plei = function(tune) {
       console.log(`${tune} - ${titles.indexOf(tune)}`)
