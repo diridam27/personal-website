@@ -3,6 +3,7 @@
         <title>cd-uri</title>
     </head>
     <body>
+        <p id="vezica" style="position:absolute; background-color: black; padding: 10px; font-family: sans-serif; border-radius:10px">Apasă pe orice album pentru a asculta un segment din el! Așteaptă oleacă să se încarce! Spune primele două strofe ale imnului cu mâna la piept, ar trebui să fie de ajuns.</p>
         <img src="cds.png" alt="cd-uri" usemap="#harta">
         <map name="harta">
             <area shape="rect" onclick="plei('peachy')" alt="" coords="966,783,1133,961">
@@ -12,7 +13,6 @@
             <area shape="rect" onclick="plei('lisastansfield')" alt="" coords="194,316,396,466">
             <area shape="rect" onclick="plei('bazooka')" alt="" coords="1134,156,1320,315">
             <area shape="rect" onclick="plei('americanidiotsingle')" alt="" coords="1133,1280,1319,1438">
-            <area shape="rect" onclick="plei('luckyou')" alt="" coords="580,156,965,315">
             <area shape="rect" onclick="plei('shaggy')" alt="" coords="1134,962,1320,1127">
             <area shape="rect" onclick="plei('pheonix')" alt="" coords="1385,1466,1501,1620">
             <area shape="rect" onclick="plei('californication')" alt="" coords="0,0,193,155">
@@ -23,7 +23,7 @@
             <area shape="rect" onclick="plei('ram')" alt="" coords="457,1286,878,1707">
             <area shape="rect" onclick="plei('korn')" alt="" coords="1134,783,1320,961">
             <area shape="rect" onclick="plei('gossip')" alt="" coords="768,316,965,466">
-            <area shape="rect" onclick="plei('2000s')" alt="" coords="768,316,965,466">
+            <area shape="rect" onclick="plei('2000s')" alt="" coords="194,783,396,961">
             <area shape="rect" onclick="plei('mrvain')" alt="" coords="397,962,579,1127">
             <area shape="rect" onclick="plei('tdsotm')" alt="" coords="0,1713,363,2077">
             <area shape="rect" onclick="plei('punjabimc')" alt="" coords="966,467,1133,621">
@@ -59,36 +59,30 @@
             <area shape="rect" onclick="plei('tellme')" alt="" coords="1321,1128,1511,1279">
             <area shape="rect" onclick="plei('ash')" alt="" coords="768,962,965,1127">
             <area shape="rect" onclick="plei('noangel')" alt="" coords="1321,783,1511,961">
+            <area shape="rect" onclick="plei('noangel2')" alt="" coords="966,316,1133,466">
             <area shape="rect" onclick="plei('happiness')" alt="" coords="1321,0,1481,155">
             <area shape="rect" onclick="plei('fatboyslim')" alt="" coords="966,962,1133,1127">
             <area shape="rect" onclick="plei('untouchables')" alt="" coords="397,783,579,961">
             <area shape="rect" onclick="plei('weezer')" alt="" coords="0,467,193,621">
             <area shape="rect" onclick="plei('blink')" alt="" coords="580,962,767,1127">
             <area shape="rect" onclick="plei('americanidiot')" alt="" coords="580,622,767,782">
-            <area shape="rect" onclick="plei('threecheers')" alt="" coords="397,467,767,621">
+            <area shape="rect" onclick="plei('threecheers')" alt="" coords="397,467,579,621">
             <area shape="rect" onclick="plei('gomez')" alt="" coords="1134,1128,1319,1279">
             <area shape="rect" onclick="plei('jaggedlittlepill')" alt="" coords="397,1128,579,1285">
-            <area shape="rect" onclick="plei('dookie')" alt="" coords="1320,1280,1151,1438">
+            <area shape="rect" onclick="plei('dookie')" alt="" coords="1320,1280,1511,1438">
             <area shape="rect" onclick="plei('feelssogood')" alt="" coords="194,622,396,782">
             <area shape="rect" onclick="plei('lifeforrent')" alt="" coords="397,316,579,466">
-            <area shape="rect" onclick="plei('livethroughthis')" alt="" coords="0,316,193,621">
+            <area shape="rect" onclick="plei('livethroughthis')" alt="" coords="0,316,193,466">
             <area shape="rect" onclick="plei('scorpions')" alt="" coords="966,0,1133,155">
             <area shape="rect" onclick="plei('petricamitustoian')" alt="" coords="1283,1477,1384,1632">
             <area shape="rect" onclick="plei('haven')" alt="" coords="194,156,396,315">
+            <area shape="rect" onclick="plei('thefame')" alt="" coords="768,0,965,155">
+            <area shape="rect" onclick="plei('luckyyou')" alt="" coords="580,156,767,315">
+            <area shape="rect" onclick="plei('korn2')" alt="" coords="768,622,965,782">
+            <area shape="rect" onclick="plei('californication2')" alt="" coords="1231,1668,1511,2069">
         </map>
+        <div id="diva" style="display: none; position: absolute;"></div>
     </body>
-    <script type="module">
-      import Webamp from "https://unpkg.com/webamp@^2";
-      const webamp = new Webamp({});
-
-      // Returns a promise indicating when it's done loading.
-      webamp.renderWhenReady(document.getElementById("app"));
-    </script>
-     <script>
-        function plei(tune)
-        {
-            webamp.renderWhenReady(app);
-        }
-    </script>
-    <div id="app"></div>
+    <script type="module" src="cds.js"></script>
+    <div style="position: absolute;top: 10px;left: 50%;transform: translateX(-50%)" id="app"></div>
 </html>

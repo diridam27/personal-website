@@ -1,632 +1,816 @@
 {
     "peachy": {
         "coords": {
-            "x1":966,
-            "y1":783,
-            "x2":1133,
-            "y2":961
+            "x1": 966,
+            "y1": 783,
+            "x2": 1133,
+            "y2": 961
         },
-        "title":"A.D.I.D.A.S._spotdown.org_trimmed.mp3"
+        "filename": "A.D.I.D.A.S._spotdown.org_trimmed.mp3",
+        "title": "A.D.I.D.A.S.",
+        "artist": "Korn"
     },
     "fugees": {
         "coords": {
-            "x1":966,
-            "y1":1128,
-            "x2":1133,
-            "y2":1279
+            "x1": 966,
+            "y1": 1128,
+            "x2": 1133,
+            "y2": 1279
         },
-        "title":"Killing Me Softly With His Song_spotdown.org_trimmed.mp3"
+        "filename": "Killing Me Softly With His Song_spotdown.org_trimmed.mp3",
+        "title": "Killing Me Softly With His Song",
+        "artist": "Fugees"
     },
     "a7x": {
         "coords": {
-            "x1":0,
-            "y1":783,
-            "x2":193,
-            "y2":961
+            "x1": 0,
+            "y1": 783,
+            "x2": 193,
+            "y2": 961
         },
-        "title":"Afterlife_spotdown.org_trimmed.mp3"
+        "filename": "Afterlife_spotdown.org_trimmed.mp3",
+        "title": "Afterlife",
+        "artist": "Avenged Sevenfold"
     },
     "beachboys": {
         "coords": {
-            "x1":0,
-            "y1":622,
-            "x2":193,
-            "y2":782
+            "x1": 0,
+            "y1": 622,
+            "x2": 193,
+            "y2": 782
         },
-        "title":"Kokomo_spotdown.org_trimmed.mp"
+        "filename": "Kokomo_spotdown.org_trimmed.mp3",
+        "title": "Kokomo",
+        "artist": "The Beach Boys"
     },
     "lisastansfield": {
         "coords": {
-            "x1":194,
-            "y1":316,
-            "x2":396,
-            "y2":466
+            "x1": 194,
+            "y1": 316,
+            "x2": 396,
+            "y2": 466
         },
-        "title":"All Around the World_spotdown.org_trimmed.mp3"
+        "filename": "All Around the World_spotdown.org_trimmed.mp3",
+        "title": "All Around the World",
+        "artist": "Lisa Stansfield"
     },
     "bazooka": {
         "coords": {
-            "x1":1134,
-            "y1":156,
-            "x2":1320,
-            "y2":315
+            "x1": 1134,
+            "y1": 156,
+            "x2": 1320,
+            "y2": 315
         },
-        "title":"Legat De Calorifer_spotdown.org_trimmed.mp3"
+        "filename": "Legat De Calorifer_spotdown.org_trimmed.mp3",
+        "title": "Legat De Calorifer",
+        "artist": "Bazooka"
     },
     "americanidiotsingle": {
         "coords": {
-            "x1":1133,
-            "y1":1280,
-            "x2":1319,
-            "y2":1438
+            "x1": 1133,
+            "y1": 1280,
+            "x2": 1319,
+            "y2": 1438
         },
-        "title":"American Idiot_spotdown.org_trimmed.mp3"
+        "filename": "American Idiot_spotdown.org_trimmed.mp3",
+        "title": "American Idiot",
+        "artist": "Green Day"
     },
-    "luckyou": {
+    "luckyyou": {
         "coords": {
-            "x1":580,
-            "y1":156,
-            "x2":965,
-            "y2":315
+            "x1": 580,
+            "y1": 156,
+            "x2": 767,
+            "y2": 315
         },
-        "title":"Lucky You_spotdown.org_trimmed.mp3"
+        "filename": "Lucky You_spotdown.org_trimmed.mp3",
+        "title": "Lucky You",
+        "artist": "The Lightning Seeds"
     },
     "shaggy": {
         "coords": {
-            "x1":1134,
-            "y1":962,
-            "x2":1320,
-            "y2":1127
+            "x1": 1134,
+            "y1": 962,
+            "x2": 1320,
+            "y2": 1127
         },
-        "title":"Angel_spotdown.org_trimmed.mp3"
+        "filename": "Angel_spotdown.org_trimmed.mp3",
+        "title": "Angel",
+        "artist": "Shaggy"
     },
     "pheonix": {
         "coords": {
-            "x1":1385,
-            "y1":1466,
-            "x2":1501,
-            "y2":1620
+            "x1": 1385,
+            "y1": 1466,
+            "x2": 1501,
+            "y2": 1620
         },
-        "title":"Mica țiganiadă_spotdown.org_trimmed.mp3"
+        "filename": "Mica țiganiadă_spotdown.org_trimmed.mp3",
+        "title": "Mica țiganiadă",
+        "artist": "Phoenix"
     },
     "californication": {
         "coords": {
-            "x1":0,
-            "y1":0,
-            "x2":193,
-            "y2":155
+            "x1": 0,
+            "y1": 0,
+            "x2": 193,
+            "y2": 155
         },
-        "title":"Around the World_spotdown.org_trimmed.mp3"
+        "filename": "Around the World_spotdown.org_trimmed.mp3",
+        "title": "Around the World",
+        "artist": "Red Hot Chili Peppers"
+    },
+    "californication2": {
+        "coords": {
+            "x1": 1231,
+            "y1": 1668,
+            "x2": 1511,
+            "y2": 2069
+        },
+        "filename": "Around the World_spotdown.org_trimmed.mp3",
+        "title": "Around the World",
+        "artist": "Red Hot Chili Peppers"
     },
     "minecraft": {
         "coords": {
-            "x1":33,
-            "y1":1288,
-            "x2":454,
-            "y2":1709
+            "x1": 33,
+            "y1": 1288,
+            "x2": 454,
+            "y2": 1709
         },
-        "title":"Mice on Venus_spotdown.org_trimmed.mp3"
+        "filename": "Mice on Venus_spotdown.org_trimmed.mp3",
+        "title": "Mice on Venus",
+        "artist": "C418"
     },
     "verve": {
         "coords": {
-            "x1":1321,
-            "y1":467,
-            "x2":1496,
-            "y2":621
+            "x1": 1321,
+            "y1": 467,
+            "x2": 1496,
+            "y2": 621
         },
-        "title":"Bitter Sweet Symphony (Remastered 2016) - The Verve_trimmed.mp3"
+        "filename": "Bitter Sweet Symphony (Remastered 2016) - The Verve_trimmed.mp3",
+        "title": "Bitter Sweet Symphony",
+        "artist": "The Verve"
     },
     "screen": {
         "coords": {
-            "x1":966,
-            "y1":156,
-            "x2":1133,
-            "y2":315
+            "x1": 966,
+            "y1": 156,
+            "x2": 1133,
+            "y2": 315
         },
-        "title":"Miserlou_spotdown.org_trimmed.mp"
+        "filename": "Miserlou_spotdown.org_trimmed.mp3",
+        "title": "Miserlou",
+        "artist": "Dick Dale"
     },
     "blablabla": {
         "coords": {
-            "x1":580,
-            "y1":0,
-            "x2":767,
-            "y2":155
+            "x1": 580,
+            "y1": 0,
+            "x2": 767,
+            "y2": 155
         },
-        "title":"Bla Bla Bla_spotdown.org_trimmed.mp3"
+        "filename": "Bla Bla Bla_spotdown.org_trimmed.mp3",
+        "title": "Bla Bla Bla",
+        "artist": "Gigi D'Agostino"
     },
     "ram": {
         "coords": {
-            "x1":457,
-            "y1":1286,
-            "x2":878,
-            "y2":1707
+            "x1": 457,
+            "y1": 1286,
+            "x2": 878,
+            "y2": 1707
         },
-        "title":"Motherboard_spotdown.org_trimmed.mp"
+        "filename": "Motherboard_spotdown.org_trimmed.mp3",
+        "title": "Motherboard",
+        "artist": "Daft Punk"
     },
     "korn": {
         "coords": {
-            "x1":1134,
-            "y1":783,
-            "x2":1320,
-            "y2":961
+            "x1": 1134,
+            "y1": 783,
+            "x2": 1320,
+            "y2": 961
         },
-        "title":"Blind_spotdown.org_trimmed.mp3"
+        "filename": "Blind_spotdown.org_trimmed.mp3",
+        "title": "Blind",
+        "artist": "Korn"
+    },
+    "korn2": {
+        "coords": {
+            "x1": 768,
+            "y1": 622,
+            "x2": 965,
+            "y2": 782
+        },
+        "filename": "Blind_spotdown.org_trimmed.mp3",
+        "title": "Blind",
+        "artist": "Korn"
     },
     "gossip": {
         "coords": {
-            "x1":768,
-            "y1":316,
-            "x2":965,
-            "y2":466
+            "x1": 768,
+            "y1": 316,
+            "x2": 965,
+            "y2": 466
         },
-        "title":"Move in the Right Direction - Gossip_trimmed.mp3"
+        "filename": "Move in the Right Direction - Gossip_trimmed.mp3",
+        "title": "Move in the Right Direction",
+        "artist": "Gossip"
     },
     "2000s": {
         "coords": {
-            "x1":768,
-            "y1":316,
-            "x2":965,
-            "y2":466
+            "x1": 194,
+            "y1": 783,
+            "x2": 396,
+            "y2": 961
         },
-        "title":"Boogie Wonderland (with The Emotions)_spotdown.org_trimmed.mp3"
+        "filename": "Boogie Wonderland (with The Emotions)_spotdown.org_trimmed.mp3",
+        "title": "Boogie Wonderland",
+        "artist": "Earth, Wind & Fire"
     },
     "mrvain": {
         "coords": {
-            "x1":397,
-            "y1":962,
-            "x2":579,
-            "y2":1127
+            "x1": 397,
+            "y1": 962,
+            "x2": 579,
+            "y2": 1127
         },
-        "title":"Mr. Vain_spotdown.org_trimmed.mp3"
+        "filename": "Mr. Vain_spotdown.org_trimmed.mp3",
+        "title": "Mr. Vain",
+        "artist": "Culture Beat"
     },
     "tdsotm": {
         "coords": {
-            "x1":0,
-            "y1":1713,
-            "x2":363,
-            "y2":2077
+            "x1": 0,
+            "y1": 1713,
+            "x2": 363,
+            "y2": 2077
         },
-        "title":"Brain Damage_spotdown.org_trimmed.mp3"
+        "filename": "Brain Damage_spotdown.org_trimmed.mp3",
+        "title": "Brain Damage",
+        "artist": "Pink Floyd"
     },
     "punjabimc": {
         "coords": {
-            "x1":966,
-            "y1":467,
-            "x2":1133,
-            "y2":621
+            "x1": 966,
+            "y1": 467,
+            "x2": 1133,
+            "y2": 621
         },
-        "title":"Mundian To Bach Ke_spotdown.org_trimmed.mp3"
+        "filename": "Mundian To Bach Ke_spotdown.org_trimmed.mp3",
+        "title": "Mundian To Bach Ke",
+        "artist": "Panjabi MC"
     },
     "tfotl": {
         "coords": {
-            "x1":194,
-            "y1":0,
-            "x2":396,
-            "y2":155
+            "x1": 194,
+            "y1": 0,
+            "x2": 396,
+            "y2": 155
         },
-        "title":"Breathe_spotdown.org_trimmed.mp3"
+        "filename": "Breathe_spotdown.org_trimmed.mp3",
+        "title": "Breathe",
+        "artist": "The Prodigy"
     },
     "fancythat": {
         "coords": {
-            "x1":580,
-            "y1":467,
-            "x2":767,
-            "y2":621
+            "x1": 580,
+            "y1": 467,
+            "x2": 767,
+            "y2": 621
         },
-        "title":"Noises_spotdown.org_trimmed.mp"
+        "filename": "Noises_spotdown.org_trimmed.mp3",
+        "title": "Noises",
+        "artist": "PinkPantheress"
     },
     "fallen": {
         "coords": {
-            "x1":1321,
-            "y1":962,
-            "x2":1511,
-            "y2":1127
+            "x1": 1321,
+            "y1": 962,
+            "x2": 1511,
+            "y2": 1127
         },
-        "title":"Bring Me To Life_spotdown.org_trimmed.mp3"
+        "filename": "Bring Me To Life_spotdown.org_trimmed.mp3",
+        "title": "Bring Me To Life",
+        "artist": "Evanescence"
     },
     "pinkerton": {
         "coords": {
-            "x1":1321,
-            "y1":622,
-            "x2":1511,
-            "y2":782
+            "x1": 1321,
+            "y1": 622,
+            "x2": 1511,
+            "y2": 782
         },
-        "title":"Pink Triangle_spotdown.org_trimmed.mp3"
+        "filename": "Pink Triangle_spotdown.org_trimmed.mp3",
+        "title": "Pink Triangle",
+        "artist": "Weezer"
     },
     "bytheway": {
         "coords": {
-            "x1":1134,
-            "y1":622,
-            "x2":1320,
-            "y2":782
+            "x1": 1134,
+            "y1": 622,
+            "x2": 1320,
+            "y2": 782
         },
-        "title":"By the Way_spotdown.org_trimmed.mp3"
+        "filename": "By the Way_spotdown.org_trimmed.mp3",
+        "title": "By the Way",
+        "artist": "Red Hot Chili Peppers"
     },
     "gold": {
         "coords": {
-            "x1":1134,
-            "y1":0,
-            "x2":1320,
-            "y2":155
+            "x1": 1134,
+            "y1": 0,
+            "x2": 1320,
+            "y2": 155
         },
-        "title":"Promises_spotdown.org_trimmed.mp"
+        "filename": "Promises_spotdown.org_trimmed.mp3",
+        "title": "Promises",
+        "artist": "The Cranberries"
     },
     "candygirl": {
         "coords": {
-            "x1":387,
-            "y1":0,
-            "x2":579,
-            "y2":155
+            "x1": 387,
+            "y1": 0,
+            "x2": 579,
+            "y2": 155
         },
-        "title":"Candy Girl_spotdown.org_trimmed.mp3"
+        "filename": "Candy Girl_spotdown.org_trimmed.mp3",
+        "title": "Candy Girl",
+        "artist": "Babybird"
     },
     "galac02": {
         "coords": {
-            "x1":1321,
-            "y1":156,
-            "x2":1477,
-            "y2":315
+            "x1": 1321,
+            "y1": 156,
+            "x2": 1477,
+            "y2": 315
         },
-        "title":"Red Alert_spotdown.org_trimmed.mp3"
+        "filename": "Red Alert_spotdown.org_trimmed.mp3",
+        "title": "Red Alert",
+        "artist": "Basement Jaxx"
     },
     "whitepony": {
         "coords": {
-            "x1":580,
-            "y1":1128,
-            "x2":767,
-            "y2":1285
+            "x1": 580,
+            "y1": 1128,
+            "x2": 767,
+            "y2": 1285
         },
-        "title":"Change (In the House of Flies)_spotdown.org_trimmed.mp3"
+        "filename": "Change (In the House of Flies)_spotdown.org_trimmed.mp3",
+        "title": "Change (In the House of Flies)",
+        "artist": "Deftones"
     },
     "noneedtoargue": {
         "coords": {
-            "x1":768,
-            "y1":467,
-            "x2":965,
-            "y2":621
+            "x1": 768,
+            "y1": 467,
+            "x2": 965,
+            "y2": 621
         },
-        "title":"Ridiculous Thoughts - 2025 Remastered_spotdown.org_trimmed.mp3"
+        "filename": "Ridiculous Thoughts - 2025 Remastered_spotdown.org_trimmed.mp3",
+        "title": "Ridiculous Thoughts - 2025 Remastered",
+        "artist": "The Cranberries"
     },
     "toxicity": {
         "coords": {
-            "x1":373,
-            "y1":1712,
-            "x2":795,
-            "y2":2077
+            "x1": 373,
+            "y1": 1712,
+            "x2": 795,
+            "y2": 2077
         },
-        "title":"Chop Suey!_spotdown.org_trimmed.mp3"
+        "filename": "Chop Suey!_spotdown.org_trimmed.mp3",
+        "title": "Chop Suey!",
+        "artist": "System of a Down"
     },
     "metallica": {
         "coords": {
-            "x1":802,
-            "y1":1710,
-            "x2":1233,
-            "y2":2077
+            "x1": 802,
+            "y1": 1710,
+            "x2": 1233,
+            "y2": 2077
         },
-        "title":"Sad But True - Remastered 2021_spotdown.org_trimmed.mp3"
+        "filename": "Sad But True - Remastered 2021_spotdown.org_trimmed.mp3",
+        "title": "Sad But True - Remastered 2021",
+        "artist": "Metallica"
     },
     "hybridtheory": {
         "coords": {
-            "x1":580,
-            "y1":316,
-            "x2":767,
-            "y2":466
+            "x1": 580,
+            "y1": 316,
+            "x2": 767,
+            "y2": 466
         },
-        "title":"Crawling_spotdown.org_trimmed.mp3"
+        "filename": "Crawling_spotdown.org_trimmed.mp3",
+        "title": "Crawling",
+        "artist": "Linkin Park"
     },
     "smash": {
         "coords": {
-            "x1":0,
-            "y1":962,
-            "x2":193,
-            "y2":1127
+            "x1": 0,
+            "y1": 962,
+            "x2": 193,
+            "y2": 1127
         },
-        "title":"Self Esteem_spotdown.org_trimmed.mp3"
+        "filename": "Self Esteem_spotdown.org_trimmed.mp3",
+        "title": "Self Esteem",
+        "artist": "The Offspring"
     },
     "tragickingdom": {
         "coords": {
-            "x1":194,
-            "y1":467,
-            "x2":396,
-            "y2":621
+            "x1": 194,
+            "y1": 467,
+            "x2": 396,
+            "y2": 621
         },
-        "title":"Don't Speak_spotdown.org_trimmed.mp3"
+        "filename": "Don't Speak_spotdown.org_trimmed.mp3",
+        "title": "Don't Speak",
+        "artist": "No Doubt"
     },
     "stadiumarcadium": {
         "coords": {
-            "x1":0,
-            "y1":156,
-            "x2":193,
-            "y2":315
+            "x1": 0,
+            "y1": 156,
+            "x2": 193,
+            "y2": 315
         },
-        "title":"Snow (Hey Oh)_spotdown.org_trimmed.mp3"
+        "filename": "Snow (Hey Oh)_spotdown.org_trimmed.mp3",
+        "title": "Snow (Hey Oh)",
+        "artist": "Red Hot Chili Peppers"
     },
     "inutero": {
         "coords": {
-            "x1":1134,
-            "y1":467,
-            "x2":1320,
-            "y2":621
+            "x1": 1134,
+            "y1": 467,
+            "x2": 1320,
+            "y2": 621
         },
-        "title":"Dumb_spotdown.org_trimmed.mp3"
+        "filename": "Dumb_spotdown.org_trimmed.mp3",
+        "title": "Dumb",
+        "artist": "Nirvana"
     },
     "issues": {
         "coords": {
-            "x1":580,
-            "y1":783,
-            "x2":767,
-            "y2":961
+            "x1": 580,
+            "y1": 783,
+            "x2": 767,
+            "y2": 961
         },
-        "title":"Somebody Someone_spotdown.org_trimmed.mp3"
+        "filename": "Somebody Someone_spotdown.org_trimmed.mp3",
+        "title": "Somebody Someone",
+        "artist": "Korn"
     },
     "adrenaline": {
         "coords": {
-            "x1":194,
-            "y1":962,
-            "x2":396,
-            "y2":1127
+            "x1": 194,
+            "y1": 962,
+            "x2": 396,
+            "y2": 1127
         },
-        "title":"Engine No. 9_spotdown.org_trimmed.mp3"
+        "filename": "Engine No. 9_spotdown.org_trimmed.mp3",
+        "title": "Engine No. 9",
+        "artist": "Deftones"
     },
     "jestofunk": {
         "coords": {
-            "x1":1134,
-            "y1":316,
-            "x2":1320,
-            "y2":466
+            "x1": 1134,
+            "y1": 316,
+            "x2": 1320,
+            "y2": 466
         },
-        "title":"Special Love - Live_spotdown.org_trimmed.mp3"
+        "filename": "Special Love - Live_spotdown.org_trimmed.mp3",
+        "title": "Special Love (Live)",
+        "artist": "Jestofunk"
     },
     "goanga": {
         "coords": {
-            "x1":894,
-            "y1":1320,
-            "x2":1095,
-            "y2":1620
+            "x1": 894,
+            "y1": 1320,
+            "x2": 1095,
+            "y2": 1620
         },
-        "title":"Eterna si fascinanta romanie_spotdown.org_trimmed.mp3"
+        "filename": "Eterna si fascinanta romanie_spotdown.org_trimmed.mp3",
+        "title": "Eterna și fascinanta Românie",
+        "artist": "Ca$$a Loco"
     },
     "theopendoor": {
         "coords": {
-            "x1":768,
-            "y1":1128,
-            "x2":965,
-            "y2":1285
+            "x1": 768,
+            "y1": 1128,
+            "x2": 965,
+            "y2": 1285
         },
-        "title":"Sweet Sacrifice_spotdown.org_trimmed.mp3"
+        "filename": "Sweet Sacrifice_spotdown.org_trimmed.mp3",
+        "title": "Sweet Sacrifice",
+        "artist": "Evanescence"
     },
     "meteora": {
         "coords": {
-            "x1":0,
-            "y1":1128,
-            "x2":193,
-            "y2":1285
+            "x1": 0,
+            "y1": 1128,
+            "x2": 193,
+            "y2": 1285
         },
-        "title":"Faint_spotdown.org_trimmed.mp3"
+        "filename": "Faint_spotdown.org_trimmed.mp3",
+        "title": "Faint",
+        "artist": "Linkin Park"
     },
     "bizkit": {
         "coords": {
-            "x1":966,
-            "y1":622,
-            "x2":1133,
-            "y2":782
+            "x1": 966,
+            "y1": 622,
+            "x2": 1133,
+            "y2": 782
         },
-        "title":"Take A Look Around_spotdown.org_trimmed.mp3"
+        "filename": "Take A Look Around_spotdown.org_trimmed.mp3",
+        "title": "Take a Look Around",
+        "artist": "Limp Bizkit"
     },
     "five": {
         "coords": {
-            "x1":1162,
-            "y1":1487,
-            "x2":1260,
-            "y2":1640
+            "x1": 1162,
+            "y1": 1487,
+            "x2": 1260,
+            "y2": 1640
         },
-        "title":"Fly Away_spotdown.org_trimmed.mp3"
+        "filename": "Fly Away_spotdown.org_trimmed.mp3",
+        "title": "Fly Away",
+        "artist": "Lenny Kravitz"
     },
     "brat": {
         "coords": {
-            "x1":397,
-            "y1":156,
-            "x2":579,
-            "y2":315
+            "x1": 397,
+            "y1": 156,
+            "x2": 579,
+            "y2": 315
         },
-        "title":"Talk talk_spotdown.org_trimmed.mp3"
+        "filename": "Talk talk_spotdown.org_trimmed.mp3",
+        "title": "Talk Talk",
+        "artist": "Charli XCX"
     },
     "foal": {
         "coords": {
-            "x1":768,
-            "y1":783,
-            "x2":965,
-            "y2":961
+            "x1": 768,
+            "y1": 783,
+            "x2": 965,
+            "y2": 961
         },
-        "title":"Freak On a Leash_spotdown.org_trimmed.mp3"
+        "filename": "Freak On a Leash_spotdown.org_trimmed.mp3",
+        "title": "Freak On a Leash",
+        "artist": "Korn"
     },
     "wheatus": {
         "coords": {
-            "x1":1321,
-            "y1":316,
-            "x2":1487,
-            "y2":466
+            "x1": 1321,
+            "y1": 316,
+            "x2": 1487,
+            "y2": 466
         },
-        "title":"Teenage Dirtbag_spotdown.org_trimmed.mp3"
+        "filename": "Teenage Dirtbag_spotdown.org_trimmed.mp3",
+        "title": "Teenage Dirtbag",
+        "artist": "Wheatus"
     },
     "blur": {
         "coords": {
-            "x1":194,
-            "y1":1128,
-            "x2":396,
-            "y2":1285
+            "x1": 194,
+            "y1": 1128,
+            "x2": 396,
+            "y2": 1285
         },
-        "title":"Girls & Boys_spotdown.org_trimmed.mp3"
+        "filename": "Girls & Boys_spotdown.org_trimmed.mp3",
+        "title": "Girls & Boys",
+        "artist": "Blur"
     },
     "tellme": {
         "coords": {
-            "x1":1321,
-            "y1":1128,
-            "x2":1511,
-            "y2":1279
+            "x1": 1321,
+            "y1": 1128,
+            "x2": 1511,
+            "y2": 1279
         },
-        "title":"Tell Me_trimmed.mp3"
+        "filename": "Tell Me_trimmed.mp3",
+        "title": "Tell Me",
+        "artist": "Haven"
     },
     "ash": {
         "coords": {
-            "x1":768,
-            "y1":962,
-            "x2":965,
-            "y2":1127
+            "x1": 768,
+            "y1": 962,
+            "x2": 965,
+            "y2": 1127
         },
-        "title":"Goldfinger_spotdown.org_trimmed.mp3"
+        "filename": "Goldfinger_spotdown.org_trimmed.mp3",
+        "title": "Goldfinger",
+        "artist": "Ash"
     },
     "noangel": {
         "coords": {
-            "x1":1321,
-            "y1":783,
-            "x2":1511,
-            "y2":961
+            "x1": 1321,
+            "y1": 783,
+            "x2": 1511,
+            "y2": 961
         },
-        "title":"Thank You_spotdown.org_trimmed.mp3"
+        "filename": "Thank You_spotdown.org_trimmed.mp3",
+        "title": "Thank You",
+        "artist": "Dido"
+    },
+    "noangel2": {
+        "coords": {
+            "x1": 966,
+            "y1": 316,
+            "x2": 1133,
+            "y2": 466
+        },
+        "filename": "Thank You_spotdown.org_trimmed.mp3",
+        "title": "Thank You",
+        "artist": "Dido"
     },
     "happiness": {
         "coords": {
-            "x1":1321,
-            "y1":0,
-            "x2":1481,
-            "y2":155
+            "x1": 1321,
+            "y1": 0,
+            "x2": 1481,
+            "y2": 155
         },
-        "title":"Happiness_spotdown.org_trimmed.mp3"
+        "filename": "Happiness_spotdown.org_trimmed.mp3",
+        "title": "Happiness",
+        "artist": "Pizzaman"
     },
     "fatboyslim": {
         "coords": {
-            "x1":966,
-            "y1":962,
-            "x2":1133,
-            "y2":1127
+            "x1": 966,
+            "y1": 962,
+            "x2": 1133,
+            "y2": 1127
         },
-        "title":"The Rockafeller Skank_spotdown.org_trimmed.mp3"
+        "filename": "The Rockafeller Skank_spotdown.org_trimmed.mp3",
+        "title": "The Rockafeller Skank",
+        "artist": "Fatboy Slim"
     },
     "untouchables": {
         "coords": {
-            "x1":397,
-            "y1":783,
-            "x2":579,
-            "y2":961
+            "x1": 397,
+            "y1": 783,
+            "x2": 579,
+            "y2": 961
         },
-        "title":"Here To Stay_spotdown.org_trimmed.mp3"
+        "filename": "Here To Stay_spotdown.org_trimmed.mp3",
+        "title": "Here To Stay",
+        "artist": "Korn"
     },
     "weezer": {
         "coords": {
-            "x1":0,
-            "y1":467,
-            "x2":193,
-            "y2":621
+            "x1": 0,
+            "y1": 467,
+            "x2": 193,
+            "y2": 621
         },
-        "title":"The World Has Turned And Left Me Here_spotdown.org_trimmed.mp3"
+        "filename": "The World Has Turned And Left Me Here_spotdown.org_trimmed.mp3",
+        "title": "The World Has Turned And Left Me Here",
+        "artist": "Weezer"
     },
     "blink": {
         "coords": {
-            "x1":580,
-            "y1":962,
-            "x2":767,
-            "y2":1127
+            "x1": 580,
+            "y1": 962,
+            "x2": 767,
+            "y2": 1127
         },
-        "title":"I Miss You_spotdown.org_trimmed.mp3"
+        "filename": "I Miss You_spotdown.org_trimmed.mp3",
+        "title": "I Miss You",
+        "artist": "Blink-182"
     },
     "americanidiot": {
         "coords": {
-            "x1":580,
-            "y1":622,
-            "x2":767,
-            "y2":782
+            "x1": 580,
+            "y1": 622,
+            "x2": 767,
+            "y2": 782
         },
-        "title":"Wake Me up When September Ends_spotdown.org_trimmed.mp3"
+        "filename": "Wake Me up When September Ends_spotdown.org_trimmed.mp3",
+        "title": "Wake Me up When September Ends",
+        "artist": "Green Day"
     },
     "threecheers": {
         "coords": {
-            "x1":397,
-            "y1":467,
-            "x2":767,
-            "y2":621
+            "x1": 397,
+            "y1": 467,
+            "x2": 579,
+            "y2": 621
         },
-        "title":"I'm Not Okay (I Promise)_spotdown.org_trimmed.mp3"
+        "filename": "I'm Not Okay (I Promise)_spotdown.org_trimmed.mp3",
+        "title": "I'm Not Okay (I Promise)",
+        "artist": "My Chemical Romance"
     },
     "gomez": {
         "coords": {
-            "x1":1134,
-            "y1":1128,
-            "x2":1319,
-            "y2":1279
+            "x1": 1134,
+            "y1": 1128,
+            "x2": 1319,
+            "y2": 1279
         },
-        "title":"We Haven't Turned Around_spotdown.org_trimmed.mp3"
+        "filename": "We Haven't Turned Around_spotdown.org_trimmed.mp3",
+        "title": "We Haven't Turned Around",
+        "artist": "Gomez"
     },
     "jaggedlittlepill": {
         "coords": {
-            "x1":397,
-            "y1":1128,
-            "x2":579,
-            "y2":1285
+            "x1": 397,
+            "y1": 1128,
+            "x2": 579,
+            "y2": 1285
         },
-        "title":"Ironic_spotdown.org_trimmed.mp3"
+        "filename": "Ironic_spotdown.org_trimmed.mp3",
+        "title": "Ironic",
+        "artist": "Alanis Morissette"
     },
     "dookie": {
         "coords": {
-            "x1":1320,
-            "y1":1280,
-            "x2":1151,
-            "y2":1438
+            "x1": 1320,
+            "y1": 1280,
+            "x2": 1511,
+            "y2": 1438
         },
-        "title":"Welcome to Paradise_spotdown.org_trimmed.mp3"
+        "filename": "Welcome to Paradise_spotdown.org_trimmed.mp3",
+        "title": "Welcome to Paradise",
+        "artist": "Green Day"
     },
     "feelssogood": {
         "coords": {
-            "x1":194,
-            "y1":622,
-            "x2":396,
-            "y2":782
+            "x1": 194,
+            "y1": 622,
+            "x2": 396,
+            "y2": 782
         },
-        "title":"It Feels So Good_spotdown.org_trimmed.mp3"
+        "filename": "It Feels So Good_spotdown.org_trimmed.mp3",
+        "title": "It Feels So Good",
+        "artist": "Sonique"
     },
     "lifeforrent": {
         "coords": {
-            "x1":397,
-            "y1":316,
-            "x2":579,
-            "y2":466
+            "x1": 397,
+            "y1": 316,
+            "x2": 579,
+            "y2": 466
         },
-        "title":"White Flag_spotdown.org_trimmed.mp3"
+        "filename": "White Flag_spotdown.org_trimmed.mp3",
+        "title": "White Flag",
+        "artist": "Dido"
     },
     "livethroughthis": {
         "coords": {
-            "x1":0,
-            "y1":316,
-            "x2":193,
-            "y2":621
+            "x1": 0,
+            "y1": 316,
+            "x2": 193,
+            "y2": 466
         },
-        "title":"I Think That I Would Die_spotdown.org_trimmed.mp3"
+        "filename": "I Think That I Would Die_spotdown.org_trimmed.mp3",
+        "title": "I Think That I Would Die",
+        "artist": "Hole"
     },
     "scorpions": {
         "coords": {
-            "x1":966,
-            "y1":0,
-            "x2":1133,
-            "y2":155
+            "x1": 966,
+            "y1": 0,
+            "x2": 1133,
+            "y2": 155
         },
-        "title":"Wind Of Change_spotdown.org_trimmed.mp3"
+        "filename": "Wind Of Change_spotdown.org_trimmed.mp3",
+        "title": "Wind of Change",
+        "artist": "Scorpions"
     },
     "petricamitustoian": {
         "coords": {
-            "x1":1283,
-            "y1":1477,
-            "x2":1384,
-            "y2":1632
+            "x1": 1283,
+            "y1": 1477,
+            "x2": 1384,
+            "y2": 1632
         },
-        "title":"Joaca Lumea, Joc Si Eu_spotdown.org_trimmed.mp3"
+        "filename": "Joaca Lumea, Joc Si Eu_spotdown.org_trimmed.mp3",
+        "title": "Joaca Lumea, Joc Si Eu",
+        "artist": "Petrică Mîțu Stoian"
     },
     "haven": {
         "coords": {
-            "x1":194,
-            "y1":156,
-            "x2":396,
-            "y2":315
+            "x1": 194,
+            "y1": 156,
+            "x2": 396,
+            "y2": 315
         },
-        "title":"Wouldn't Change A Thing_spotdown.org_trimmed.mp3"
+        "filename": "Wouldn't Change A Thing_spotdown.org_trimmed.mp3",
+        "title": "Wouldn't Change A Thing",
+        "artist": "Haven"
+    },
+    "thefame": {
+        "coords": {
+            "x1": 768,
+            "y1": 0,
+            "x2": 965,
+            "y2": 155
+        },
+        "filename": "Wouldn't Change A Thing_spotdown.org_trimmed.mp3",
+        "title": "Just Dance",
+        "artist": "Lady Gaga"
     }
 }
