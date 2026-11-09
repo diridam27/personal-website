@@ -1,0 +1,42 @@
+{
+    "sds": { 
+        "color":"#692ed1",
+        "ro":"Shit Diridam says",
+        "en":"Shit Diridam says"
+    },
+    "yt": { 
+        "color":"#ff0000",
+        "ro":"Video de pe youtube",
+        "en":"Yotube video"
+    },
+    "test": { 
+        "color":"#b0b0b0",
+        "ro":"Aceasta este o postare pentru testarea site-ului",
+        "en":"This post's purpose is tesing the site"
+    },
+    "tumblr": { 
+        "color":"#1a3049",
+        "ro":"Aceasta este o postare preluată de pe tumblr-ul meu",
+        "en":"This is a post taken from my tumblr"
+    },
+    "reddit": { 
+        "color":"#ff4600",
+        "ro":"Aceasta este o postare preluată de pe reddit-ul meu",
+        "en":"This is a post taken from my reddit"
+    },
+    "discord": { 
+        "color":"#5865f2",
+        "ro":"Acesta este o postare preluată dintr-un mesaj de pe Discord",
+        "en":"This is a post taken from a message I sent on Discord"
+    },
+    "pm": { 
+        "color":"#55bb99",
+        "ro":"Aceasta este o postare preluată dintr-un mesaj privat",
+        "en":"This is a post taken from a private message I sent"
+    },
+    "favs": { 
+        "color":"#cccc11",
+        "ro":"Aceasta este una dintre postările mele preferate",
+        "en":"This is one of my favourite posts"
+    }
+}

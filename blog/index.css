@@ -33,6 +33,18 @@ button {
 {
     color:white;
 }
+#corpus {
+    width: max-content;
+    height: max-content;
+    background-color: black;
+    border: 2px white solid;
+    padding: 3vw;
+    border-radius: 1.5vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
 p {
     font-size: 2vw;
 }
