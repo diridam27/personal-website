@@ -86,9 +86,9 @@ window.onload = function() {
         tags = JSON.parse(tagsText);
         console.log(tags);
     })
-    //postName = getParameterByName('p', window.location.href);
-    //fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
-    fetch("test.txt")
+    postName = getParameterByName('p', window.location.href);
+    fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
+    //fetch("test.txt")
     .then(r=>r.text())
     .then(text => {
         randuri = text.split("\n");
