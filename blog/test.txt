@@ -1,4 +1,4 @@
-10X26 {{yt}}{{favs}} chap chapeau
+10X24 {{yt}}{{favs}} chap Plăcintă
 
 <ro>
 # Acesta este un test pentru a testa dacă merge titlul
