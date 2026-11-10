@@ -7,6 +7,37 @@ let postName = "404"; //în cazul în care nu se primește, din ceva motiv, nume
 const romans = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]; //cifrele romane în ordine
 const checkromans = ["VIII", "VII", "VI", "IV", "XII", "IX", "XI", "III", "II", "I", "V", "X"]; //cifrele romane în ordinea în care ar trebui verificate pentru a nu înlocui, de exemplu, VII cu 5II
 
+let elatie = {
+    "duminică": {
+        "simbol":"☉",
+        "culoare":"#7d7d7d"
+    },
+    "luni": {
+        "simbol":"☾",
+        "culoare":"#ffcf00"
+    },
+    "marți": {
+        "simbol":"♂",
+        "culoare":"#3040dd"
+    },
+    "miercuri": {
+        "simbol":"☿",
+        "culoare":"#80ddff"
+    },
+    "joi": {
+        "simbol":"♃",
+        "culoare":"#7010ff"
+    },
+    "vineri": {
+        "simbol":"♀",
+        "culoare":"#50cc50"
+    },
+    "sâmbătă": {
+        "simbol": "♄",
+        "culoare":"#7d7d7d"
+    },
+}
+
 let hatnote = {
     "tags":"",
     "date":"",
@@ -33,18 +64,6 @@ function getParameterByName(name, url) {
       if (!results[2]) return '';
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
-//obține postarea ca fișier text dintr-un repo de github. Durează 5 minute să se actualizeze o postare schimbată
-window.onload = function() {
-    //postName = getParameterByName('p', window.location.href);
-    //fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
-    fetch("test.txt")
-    .then(r=>r.text())
-    .then(text => {
-        randuri = text.split("\n");
-        parse();
-
-    })
-};
 
 //          **    *     ~~    `
 let open = [true, true, true, true]
@@ -55,6 +74,9 @@ let romanian = ["gol"]; //randuri, dar doar româna
 let english = ["empty"]; //randuri, dar doar engleza
 let switched = false; //booleană în care verificăm dacă am trecut deja la cealaltă limbă. După parse, o refolosim ca să schimbăm între limbi din buton.
 
+let ziuadeazi;
+let ziulica;
+
 // ia toate tagurile definite într-un fișier json. Avem "en", "ro" și "color"
 window.onload = function() {
     fetch("./tags.json")
@@ -62,6 +84,15 @@ window.onload = function() {
     .then(tagsText => {
         tags = JSON.parse(tagsText);
         console.log(tags);
+    })
+    postName = getParameterByName('p', window.location.href);
+    fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
+    //fetch("test.txt")
+    .then(r=>r.text())
+    .then(text => {
+        randuri = text.split("\n");
+        console.log("ajung aici")
+        parse();
     })
 };
 
@@ -88,6 +119,23 @@ function cuprinde()
 // parser de markdown
 function parse()
 {
+    hatnote.chapeau = randuri[0].includes(" chap ") ? randuri[0 ].split(" chap ")[1] : null;
+    ziuadeazi = new Date();
+    ziulica = new Date(
+        getDate(randuri[0].split(" ")[0]).split("-")[2],
+        getDate(randuri[0].split(" ")[0]).split("-")[1],
+        getDate(randuri[0].split(" ")[0]).split("-")[0]
+    )
+    if(Math.floor(Math.round((ziulica - ziuadeazi) / (1000 * 60 * 60 * 24)) * -1 / 30)/12 >= 1)
+    {
+        hatnote.date = `<span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}" ${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}${randuri[0].split(" ")[0]}</span> - Acum ${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30)/12)} ${Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30)/12 > 1? "ani" : "an"}`
+    } else if(Math.floor(Math.round((ziulica - ziuadeazi) / (1000 * 60 * 60 * 24)) * -1 / 30) >= 1) {
+        hatnote.date = `<span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}" ${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}${randuri[0].split(" ")[0]}</span> - Acum ${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30))} ${Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30) > 1? "luni" : "lună"}`
+    } else {
+        hatnote.date = `<span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}" ${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}${randuri[0].split(" ")[0]}</span> - Acum ${Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1)} zile`
+    }
+    console.log("bihor")
+    randuri = randuri.slice(1);
     corpus.innerHTML = "Se procesează textul";
     for(let i = 0; i < randuri.length; i++)
     {

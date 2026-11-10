@@ -1,7 +1,6 @@
-{{yt}} {{favs}}
+10X26 {{yt}}{{favs}} chap chapeau
 
 <ro>
-
 # Acesta este un test pentru a testa dacă merge titlul
 
 Acestea sunt **diferite** chestii *care* pot să ~~apară~~ inline.
@@ -12,10 +11,8 @@ Aici este un exemplu de [hyperlink](https://example.com/)
 * fain
 
 ![logo](/logo2.png)
-
 </ro>
 <en>
-
 # This is a test to test whether or not headings work
 
 These are **different** things *that* may ~~appear~~ inline.
@@ -25,5 +22,4 @@ Here's yet another `test` to see if inline code blocks are working.
 * cool
 
 ![logo](/logo2.png)
-
 </en>
