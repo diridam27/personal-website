@@ -35,7 +35,7 @@ function getParameterByName(name, url) {
 }
 //obține postarea ca fișier text dintr-un repo de github. Durează 5 minute să se actualizeze o postare schimbată
 window.onload = function() {
-    postName = getParameterByName('p', window.location.href);
+    //postName = getParameterByName('p', window.location.href);
     //fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt`)
     fetch("test.txt")
     .then(r=>r.text())
@@ -74,7 +74,7 @@ fetch(`https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/cupri
 })
 
 // tagurile existente
-let tag = ["{{sds}}","{{yt}}","{{test}}","{{tumblr}}","{{reddit}}","{{discord}}","{{pm}}","{{favs}}"]
+let tag = ["sds","yt","test","tumblr","reddit","discord","pm","favs"]
 
 //afișează cuprinsul în sidebar
 function cuprinde()
@@ -109,7 +109,6 @@ function parse()
             randuri.splice(i + 1, 0, "</ul>")
         }
         //bold
-        console.log("bold");
         while(randuri[i].includes("**"))
         {
             randuri[i] = randuri[i].replace(
@@ -119,7 +118,6 @@ function parse()
             open[0] = !open[0];
         }
         //italic
-        console.log("italic");
         while(randuri[i].includes("*"))
         {
             randuri[i] = randuri[i].replace(
@@ -129,7 +127,6 @@ function parse()
             open[1] = !open[1];
         }
         //strike
-        console.log("strike");
         while(randuri[i].includes("~~"))
         {
             randuri[i] = randuri[i].replace(
@@ -154,10 +151,10 @@ function parse()
             randuri[i] = "<h1>" + randuri[i].slice(2) + "</h1>";
         }
         //tags
-        for(let j = 0; j < tag.length; j++)
+        /*for(let j = 0; j < tag.length; j++)
         {
-            randuri[i] = randuri[i].replace(tag[j], `<div style="padding: 1vw; background-color:${tags[tag[j]].color}; border: 1px solid white"${tags[tag[j]].en}`);
-        } 
+            randuri[i] = randuri[i].replace(`${tag[j]}`, `<p style="font-size:1vh; padding: 1vh; width:max-content; background-color:${tags[tag[j]].color}; border: 1px solid white">${tags[tag[j]].en}</p>`);
+        }*/ 
         //hyperlink
         if(randuri[i].startsWith("![") && randuri[i].includes("](") && randuri[i][randuri[i].length - 1] == ")")
         {
@@ -167,12 +164,13 @@ function parse()
         (
                                                                         // unu [doi](trei) patru
                randuri[i].split("[").length > 1                         // unu, doi](trei) patru (2 > 1)
-            && randuri[i].split("[")[1].split(")") > 1                  // doi](trei, patru (2 > 1)
-            && randuri[i].split("[")[1].split(")")[0].split("](") > 1   // doi, trei (2 > 1)
+            && randuri[i].split("[")[1].split(")").length > 1                  // doi](trei, patru (2 > 1)
+            && randuri[i].split("[")[1].split(")")[0].split("](").length > 1   // doi, trei (2 > 1)
             && randuri[i].split("[")[1].split(")")[0].includes("](")    // doi](trei (are "](")
         )
         {
-            randuri[i] = `${randuri[i].split("[")[0]} <a href=${randuri[i].split("[")[1].split(")")[0].split("](")[1]}>${randuri[i].split("[")[1].split(")")[0].split("](")[0]}</a> ${anduri[i].split("[")[1].split(")")[1]}`;
+            console.log("hyperlink")
+            randuri[i] = `${randuri[i].split("[")[0]} <a href=${randuri[i].split("[")[1].split(")")[0].split("](")[1]}>${randuri[i].split("[")[1].split(")")[0].split("](")[0]}</a> ${randuri[i].split("[")[1].split(")")[1]}`;
         }
     }
     //ro/en
@@ -192,7 +190,6 @@ function parse()
     }
     else
     {
-        console.log("nu am găsit limbi în pizdă");
         langButton.innerHTML = "";
         corpus.innerHTML = randuri.join("<br>");
     }

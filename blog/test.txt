@@ -1,4 +1,4 @@
-{{test}} {{yt}} {{favs}}
+{{yt}} {{favs}}
 
 <ro>
 
