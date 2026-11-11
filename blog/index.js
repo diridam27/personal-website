@@ -124,14 +124,14 @@ function getTimestamp(ataData)
     } else if(Math.floor(Math.round((ziulica - ziuadeazi) / (1000 * 60 * 60 * 24)) * -1 / 30) >= 1) {
         hatnote.date = `<b><span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}"> <span style="font-size: 4vh">${elatie[ziulica.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}</span>${ataData}</span> - Acum ${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30))} ${Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30) > 1? "luni" : "lună"}</b>`
     } else {
-        hatnote.date = `<b><span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}"> <span style="font-size: 4vh">${elatie[ziulica.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}</span>${ataData}</span> - Acum ${Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1)} zile</b>`
+        hatnote.date = `<b><span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}"> <span style="font-size: 4vh">${elatie[ziulica.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}</span>${ataData}</span> - ${switched ? "" : "Acum"} ${Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1)} ${switched ? (Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1)   > 1 ?"days ago" : "day ago") : (Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1) ? "zile" : "zi")}</b>`
     }
 }
 
 // parser de markdown
 function parse()
 {
-    hatnote.chapeau = randuri[0].includes(" chap ") ? randuri[0 ].split(" chap ")[1] : null;
+    hatnote.chapeau = randuri[0].includes(" chap ") ? randuri[0].split(" chap ")[1] : " ";
     ziuadeazi = new Date();
     ziulica = new Date(
         getDate(randuri[0].split(" ")[0]).split("-")[2],
@@ -145,7 +145,7 @@ function parse()
         hatnote.tags[i] = hatnote.tags[i].replace("{{", "");
         hatnote.tags[i] = hatnote.tags[i].replace("}}", "");
     }
-    papiotaData = randuri[0].split(" ")[0];
+    
     randuri = randuri.slice(1);
     corpus.innerHTML = "Se procesează textul";
     for(let i = 0; i < randuri.length; i++)
@@ -258,11 +258,11 @@ function langg()
 {
     switched = !switched;
     getTimestamp(papiotaData);
-    if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
-    {
+    //if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
+    //{
         console.log(`<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br>${romanian.join("<br>")}`)
         corpus.innerHTML = switched ?
          `<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br><button onclick="langg()" id="langButton">[EN]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[vezi sursă]</a><br>${romanian.join("<br>")}` :
          `<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br><button onclick="langg()" id="langButton">[EN]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[vezi sursă]</a><br>${english.join("<br>")}`;
-    }
+    //}
 }
