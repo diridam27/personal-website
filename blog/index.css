@@ -45,6 +45,12 @@ button {
     margin-left: 2vw;
     margin-top: 2vh;
 }
+li::marker {
+  content: "★ "
+}
+
+
+
 p {
     font-size: 2vw;
 }

@@ -92,6 +92,7 @@ window.onload = function() {
     .then(r=>r.text())
     .then(text => {
         randuri = text.split("\n");
+        papiotaData = randuri[0].split(" ")[0]
         parse();
     })
 };
@@ -118,7 +119,7 @@ function cuprinde()
 //transformă data data din fișier în element html cu timestamp relativ și absolut
 function getTimestamp(ataData)
 {
-    if(Math.floor(Math.round((ziulica - ziuadeazi) / (1000 * 60 * 60 * 24)) * -1 / 30)/12 >= 1)
+    if(Math.floor(Math.round((ziulica - ziuadeazi) / (1000 * 60 * 60 * -24))) >= 1)
     {
         hatnote.date = `<b><span style="color:${elatie[ziuadeazi.toLocaleDateString("ro-RO", { weekday: "long" })].culoare}"> <span style="font-size: 4vh">${elatie[ziulica.toLocaleDateString("ro-RO", { weekday: "long" })].simbol}</span>${ataData}</span> - ${switched ? `${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30)/12)} ${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30)/12) > 1? "years ago" : "year ago"}` : `Acum ${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30)/12)} ${Math.floor(Math.floor(Math.round((ziulica - new Date()) / (1000 * 60 * 60 * 24)) * -1 / 30)/12) > 1? "ani" : "an"}`}</b>`
     } else if(Math.floor(Math.round((ziulica - ziuadeazi) / (1000 * 60 * 60 * 24)) * -1 / 30) >= 1) {
@@ -208,6 +209,10 @@ function parse()
         if(randuri[i].startsWith("# "))
         {
             randuri[i] = "<h1>" + randuri[i].slice(2) + "</h1>";
+        }
+        if(randuri[i].startsWith("> "))
+        {
+            randuri[i] = '<span style="color:#aaff10">>' + randuri[i].slice(2) + "</span>";
         }
         //tags
         /*for(let j = 0; j < tag.length; j++)
