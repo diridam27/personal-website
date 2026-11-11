@@ -258,11 +258,15 @@ function langg()
 {
     switched = !switched;
     getTimestamp(papiotaData);
-    //if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
-    //{
+    if(randuri.join("").replace("<ro>", "").includes("</ro><en>"))
+    {
         console.log(`<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br>${romanian.join("<br>")}`)
         corpus.innerHTML = switched ?
          `<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br><button onclick="langg()" id="langButton">[EN]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[vezi sursă]</a><br>${romanian.join("<br>")}` :
          `<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br><button onclick="langg()" id="langButton">[EN]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[vezi sursă]</a><br>${english.join("<br>")}`;
-    //}
+    }
+    else
+    {
+        corpus.innerHTML = `<div id="chapeau">${hatnote.chapeau}</div><br>${hatnote.date}<br><button onclick="langg()" id="langButton">[EN]</button> <a href="https://raw.githubusercontent.com/diridam27/postari/refs/heads/main/${postName}.txt">[vezi sursă]</a><br>${randuri.join("<br>")}`;
+    }
 }
